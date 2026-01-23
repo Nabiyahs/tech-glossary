@@ -96,10 +96,9 @@
     .empty-state { text-align: center; padding: 30px; color: #666; font-style: italic; }
 
     .sort-controls { display: flex; gap: 8px; margin-left: auto; }
-    .category-header-row { background: linear-gradient(135deg, #0047AB 0%, #0056d2 100%); }
-    .category-header-row td { padding: 10px 12px !important; font-weight: 700; color: #fff; font-size: 14px; border-bottom: none !important; }
-    .category-header-row td i { margin-right: 8px; }
-    .category-badge { background: rgba(255,255,255,0.2); color: #fff; padding: 2px 8px; border-radius: 12px; font-size: 11px; margin-left: 8px; }
+    .category-col { font-size: 12px; color: #495057; }
+    .category-cell { display: inline-flex; align-items: center; gap: 4px; background: #f0f4f8; padding: 4px 8px; border-radius: 4px; font-weight: 600; white-space: nowrap; }
+    .category-cell i { color: #0047AB; font-size: 11px; }
 
     .pagination-container { margin-top: 12px; padding: 12px; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; display: flex; justify-content: space-between; align-items: center; gap: 14px; }
     .pagination-info { font-size: 13px; color: #6c757d; font-weight: 600; }
@@ -151,11 +150,11 @@
       </button>
     </div>
     <div class="sort-controls" role="group" aria-label="정렬 방식">
-      <button class="view-btn active" id="alphabetSortBtn" type="button">
+      <button class="view-btn" id="alphabetSortBtn" type="button">
         <i class="fa-solid fa-arrow-down-a-z"></i>
         알파벳순
       </button>
-      <button class="view-btn" id="relevanceSortBtn" type="button">
+      <button class="view-btn active" id="relevanceSortBtn" type="button">
         <i class="fa-solid fa-sitemap"></i>
         연관성순
       </button>
@@ -170,10 +169,11 @@
     <table class="glossary-table" id="glossaryTable">
       <thead>
       <tr>
-        <th id="disciplineHeader" style="width:10%;display:none">구분</th>
-        <th style="width:30%">EN</th>
-        <th style="width:25%">KR</th>
-        <th style="width:35%">설명</th>
+        <th id="disciplineHeader" style="width:8%;display:none">구분</th>
+        <th id="categoryHeader" style="width:12%">Category</th>
+        <th style="width:28%">EN</th>
+        <th style="width:22%">KR</th>
+        <th style="width:30%">설명</th>
       </tr>
       </thead>
       <tbody id="glossaryTableBody"></tbody>
@@ -14947,8 +14947,8 @@ function assignCategory(term) {
   return bestMatch;
 }
 
-// 현재 정렬 모드 (alphabet / relevance)
-let currentSortMode = 'alphabet';
+// 현재 정렬 모드 (alphabet / relevance) - 기본값: relevance
+let currentSortMode = 'relevance';
 
 /* ===========================================
    3) 초기화
@@ -15061,13 +15061,13 @@ function renderTable(searchTerm = '') {
     filtered = filtered.filter(t => t.discipline === selectedDiscipline);
   }
 
+  // 모든 용어에 카테고리 할당 (Category 열 표시를 위해)
+  filtered.forEach(t => {
+    t._category = assignCategory(t);
+  });
+
   // 연관성 정렬 모드
   if (currentSortMode === 'relevance') {
-    // 각 용어에 카테고리 할당
-    filtered.forEach(t => {
-      t._category = assignCategory(t);
-    });
-
     // 카테고리 순서 및 알파벳순 정렬
     filtered.sort((a, b) => {
       if (currentView === 'all') {
@@ -15112,42 +15112,29 @@ function renderTable(searchTerm = '') {
   if (total === 0) {
     const row = tbody.insertRow();
     const cell = row.insertCell();
-    cell.colSpan = (currentView === 'discipline') ? 3 : 4;
+    cell.colSpan = (currentView === 'discipline') ? 4 : 5;
     cell.innerHTML = '<div class="empty-state">등록된 용어가 없습니다.</div>';
     document.getElementById('paginationContainer').style.display = 'none';
     return;
   }
   document.getElementById('paginationContainer').style.display = (total > itemsPerPage) ? 'flex' : 'none';
 
-  // 연관성 정렬 시 카테고리 헤더 표시
-  let lastCategory = null;
-  let lastDiscipline = null;
-
   pageData.forEach(t => {
-    // 연관성 정렬 모드에서 카테고리 헤더 표시
-    if (currentSortMode === 'relevance' && currentView === 'discipline') {
-      const category = t._category || '일반';
-      if (category !== lastCategory) {
-        lastCategory = category;
-        const catInfo = categoryMap[selectedDiscipline]?.[category] || { icon: 'fa-solid fa-folder' };
-        const headerRow = tbody.insertRow();
-        headerRow.className = 'category-header-row';
-        const headerCell = headerRow.insertCell();
-        headerCell.colSpan = 3;
-
-        // 해당 카테고리의 용어 개수 계산
-        const catCount = filtered.filter(item => item._category === category).length;
-        headerCell.innerHTML = '<i class="' + catInfo.icon + '"></i>' + category + '<span class="category-badge">' + catCount + '개</span>';
-      }
-    }
-
     const row = tbody.insertRow();
 
+    // 전체 보기일 때 구분 열 표시
     if (currentView === 'all') {
       const dcell = row.insertCell();
       const badge = (disciplineMap[t.discipline]?.abbreviation) || t.discipline;
       dcell.innerHTML = '<span class="discipline-badge">' + badge + '</span>';
     }
+
+    // Category 열 추가
+    const catCell = row.insertCell();
+    const category = t._category || '일반';
+    const catInfo = categoryMap[t.discipline]?.[category] || { icon: 'fa-solid fa-folder' };
+    catCell.innerHTML = '<span class="category-cell"><i class="' + catInfo.icon + '"></i> ' + category + '</span>';
+    catCell.className = 'category-col';
 
     const en = row.insertCell();
     en.textContent = formatEnglishTerm(t.en || '');
