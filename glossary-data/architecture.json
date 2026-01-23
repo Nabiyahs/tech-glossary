@@ -37,7 +37,7 @@
   },
   {
     "en": "Access Door",
-    "kr": "점검구",
+    "kr": "점검문",
     "description": "점검 및 유지보수를 위한 출입구",
     "discipline": "Architecture"
   },
@@ -265,12 +265,6 @@
   },
   {
     "en": "Area of Refuge",
-    "kr": "피난 구역",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Area of Refuge",
     "kr": "피난안전구역",
     "description": "",
     "discipline": "Architecture"
@@ -319,13 +313,7 @@
   },
   {
     "en": "Automatic Sprinkler System",
-    "kr": "자동스프링클러설비",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Automatic Sprinkler System",
-    "kr": "자동 스프링클러시스템",
+    "kr": "자동 스프링클러 설비",
     "description": "",
     "discipline": "Architecture"
   },
@@ -426,12 +414,6 @@
     "discipline": "Architecture"
   },
   {
-    "en": "Building Area",
-    "kr": "건물 면적",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
     "en": "Building Code",
     "kr": "건축법규",
     "description": "건축물의 설계와 시공에 관한 법적 기준",
@@ -523,7 +505,7 @@
   },
   {
     "en": "Ceiling Finishing",
-    "kr": "천정재",
+    "kr": "천장 마감재",
     "description": "천장 마감재료",
     "discipline": "Architecture"
   },
@@ -1141,13 +1123,7 @@
   },
   {
     "en": "Exit Access",
-    "kr": "피난통로 접근로",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Exit Access",
-    "kr": "출구접근통로",
+    "kr": "출구 접근통로",
     "description": "",
     "discipline": "Architecture"
   },
@@ -1374,12 +1350,6 @@
     "discipline": "Architecture"
   },
   {
-    "en": "Fire Pump and Riser Room Size",
-    "kr": "소방 펌프 및 라이저실 크기",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
     "en": "Fire Pumps",
     "kr": "소화펌프",
     "description": "",
@@ -1411,13 +1381,7 @@
   },
   {
     "en": "Fire Service Access Elevator",
-    "kr": "소방접근엘리베이터",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Fire Service Access Elevator",
-    "kr": "소방구조용 엘리베이터",
+    "kr": "소방 구조용 엘리베이터",
     "description": "",
     "discipline": "Architecture"
   },
@@ -1548,24 +1512,6 @@
     "discipline": "Architecture"
   },
   {
-    "en": "Floor Plan",
-    "kr": "평면도",
-    "description": "건물 층별 배치 도면",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Floor Plan",
-    "kr": "평면도",
-    "description": "건물의 각 층별 공간 배치를 나타낸 도면",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Floor Plan",
-    "kr": "평면도",
-    "description": "건물 층별 배치 도면",
-    "discipline": "Architecture"
-  },
-  {
     "en": "Floor Topping",
     "kr": "바닥 토핑",
     "description": "바닥 상부 마감 처리",
@@ -1650,18 +1596,6 @@
     "discipline": "Architecture"
   },
   {
-    "en": "General",
-    "kr": "일반 사항",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "General",
-    "kr": "일반",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
     "en": "General Design Requirements",
     "kr": "일반 설계 요구사항",
     "description": "",
@@ -1741,37 +1675,37 @@
   },
   {
     "en": "Group A",
-    "kr": "Group A",
+    "kr": "A군 (집회시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group B",
-    "kr": "Group B",
+    "kr": "B군 (업무시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group E",
-    "kr": "Group E",
+    "kr": "E군 (교육시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group F",
-    "kr": "Group F",
+    "kr": "F군 (공장시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group F-1",
-    "kr": "Group F-1",
+    "kr": "F-1군",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group H",
-    "kr": "Group H",
+    "kr": "H군 (위험물시설)",
     "description": "",
     "discipline": "Architecture"
   },
@@ -1783,7 +1717,7 @@
   },
   {
     "en": "Group H-1",
-    "kr": "Group H-1",
+    "kr": "H-1군",
     "description": "",
     "discipline": "Architecture"
   },
@@ -1795,7 +1729,7 @@
   },
   {
     "en": "Group H-2",
-    "kr": "Group H-2",
+    "kr": "H-2군",
     "description": "",
     "discipline": "Architecture"
   },
@@ -1825,43 +1759,43 @@
   },
   {
     "en": "Group I",
-    "kr": "Group I",
+    "kr": "I군 (수용시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group M",
-    "kr": "Group M",
+    "kr": "M군 (상업시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group R",
-    "kr": "Group R",
+    "kr": "R군 (주거시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group R-1",
-    "kr": "Group R-1",
+    "kr": "R-1군",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group R-2",
-    "kr": "Group R-2",
+    "kr": "R-2군",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group S",
-    "kr": "Group S",
+    "kr": "S군 (창고시설)",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Group S-1",
-    "kr": "Group S-1",
+    "kr": "S-1군",
     "description": "",
     "discipline": "Architecture"
   },
@@ -1974,12 +1908,6 @@
     "discipline": "Architecture"
   },
   {
-    "en": "Height",
-    "kr": "단차",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
     "en": "Height In Feet",
     "kr": "높이",
     "description": "",
@@ -2065,12 +1993,6 @@
   },
   {
     "en": "High-rise Building",
-    "kr": "고층건물",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "High-rise Building",
     "kr": "고층 건물",
     "description": "",
     "discipline": "Architecture"
@@ -2120,12 +2042,6 @@
   {
     "en": "Horizontal Assembly",
     "kr": "수평 구조체",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Horizontal Assembly",
-    "kr": "수평 구조재",
     "description": "",
     "discipline": "Architecture"
   },
@@ -2533,12 +2449,6 @@
   },
   {
     "en": "Means of Egress",
-    "kr": "피난수단",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Means of Egress",
     "kr": "피난시설",
     "description": "",
     "discipline": "Architecture"
@@ -2581,13 +2491,7 @@
   },
   {
     "en": "Mezzanine",
-    "kr": "메자닌(중층)",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Mezzanine",
-    "kr": "메자닌",
+    "kr": "메자닌 (중층)",
     "description": "",
     "discipline": "Architecture"
   },
@@ -3355,19 +3259,7 @@
   },
   {
     "en": "Separation",
-    "kr": "분리",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Separation",
-    "kr": "구획",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Separation",
-    "kr": "이격거리",
+    "kr": "구획, 분리",
     "description": "",
     "discipline": "Architecture"
   },
@@ -3409,25 +3301,13 @@
   },
   {
     "en": "Shaft Enclosure",
-    "kr": "샤프트 구획벽, 수직 구획부",
+    "kr": "샤프트 구획벽",
     "description": "수직 샤프트를 둘러싸는 벽체",
     "discipline": "Architecture"
   },
   {
-    "en": "Shaft Enclosure",
-    "kr": "샤프트 구획벽",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
     "en": "Shaft Enclosures",
     "kr": "샤프트 구획벽",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Shaft Enclosures",
-    "kr": "샤프트 구획",
     "description": "",
     "discipline": "Architecture"
   },
@@ -3465,12 +3345,6 @@
     "en": "Signage",
     "kr": "표지",
     "description": "안내 표시판",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Signage",
-    "kr": "표지",
-    "description": "",
     "discipline": "Architecture"
   },
   {
@@ -3553,13 +3427,7 @@
   },
   {
     "en": "Smoke Barrier",
-    "kr": "방연벽",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Smoke Barrier",
-    "kr": "방연구획",
+    "kr": "방연 구획벽",
     "description": "",
     "discipline": "Architecture"
   },
@@ -3924,12 +3792,6 @@
     "discipline": "Architecture"
   },
   {
-    "en": "Through-penetration Firestop System",
-    "kr": "수평 구조체",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
     "en": "Tile Joint",
     "kr": "타일 줄눈",
     "description": "",
@@ -4009,7 +3871,7 @@
   },
   {
     "en": "Type I",
-    "kr": "Type I",
+    "kr": "I형 (내화구조)",
     "description": "",
     "discipline": "Architecture"
   },
@@ -4021,13 +3883,13 @@
   },
   {
     "en": "Type III",
-    "kr": "Type III",
+    "kr": "III형",
     "description": "",
     "discipline": "Architecture"
   },
   {
     "en": "Type IV",
-    "kr": "Type IV",
+    "kr": "IV형",
     "description": "",
     "discipline": "Architecture"
   },
@@ -4039,7 +3901,7 @@
   },
   {
     "en": "Type V",
-    "kr": "Type V",
+    "kr": "V형",
     "description": "",
     "discipline": "Architecture"
   },
@@ -4147,13 +4009,13 @@
   },
   {
     "en": "Wall Base",
-    "kr": "굽도리",
+    "kr": "벽 걸레받이 (굽도리)",
     "description": "벽 하단 마감재",
     "discipline": "Architecture"
   },
   {
     "en": "Wall Chasing",
-    "kr": "홈파기",
+    "kr": "벽 홈파기",
     "description": "벽면 홈 가공",
     "discipline": "Architecture"
   },
@@ -4250,12 +4112,6 @@
   {
     "en": "Width And Capacity",
     "kr": "폭 및 용량",
-    "description": "",
-    "discipline": "Architecture"
-  },
-  {
-    "en": "Width And Capacity",
-    "kr": "너비 및 용량",
     "description": "",
     "discipline": "Architecture"
   },

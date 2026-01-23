@@ -175,7 +175,7 @@
   },
   {
     "en": "Blower Coils Unit, Bypass Cooling Unit, BCU",
-    "kr": "BCU",
+    "kr": "송풍기 코일 유닛 (BCU)",
     "description": "A terminal unit which is capable of providing heating and/or cooling to a zone or a space...",
     "discipline": "HVAC"
   },
@@ -331,7 +331,7 @@
   },
   {
     "en": "Fanl Coils Unit, FCU",
-    "kr": "FCU",
+    "kr": "팬코일 유닛 (FCU)",
     "description": "A terminal unit capable of heating/cooling a zone or space...",
     "discipline": "HVAC"
   },
@@ -433,7 +433,7 @@
   },
   {
     "en": "HVC",
-    "kr": "Heating, Vaccumming, Charging",
+    "kr": "가열, 진공, 충전 (HVC)",
     "description": "SDI 용어",
     "discipline": "HVAC"
   },

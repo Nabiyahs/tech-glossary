@@ -133,7 +133,7 @@
   },
   {
     "en": "Algorithm Adaptation",
-    "kr": "AA",
+    "kr": "알고리즘 적응 (AA)",
     "description": "",
     "discipline": "Cell"
   },
@@ -205,7 +205,7 @@
   },
   {
     "en": "Ampere-hour",
-    "kr": "Ah",
+    "kr": "암페어시 (Ah)",
     "description": "",
     "discipline": "Cell"
   },
@@ -331,7 +331,7 @@
   },
   {
     "en": "BMS",
-    "kr": "BMS",
+    "kr": "배터리 관리 시스템 (BMS)",
     "description": "배터리 관리 시스템",
     "discipline": "Cell"
   },
@@ -379,7 +379,7 @@
   },
   {
     "en": "C-rate",
-    "kr": "C-rate",
+    "kr": "C율 (C-rate)",
     "description": "",
     "discipline": "Cell"
   },
@@ -433,7 +433,7 @@
   },
   {
     "en": "Cell Characterization",
-    "kr": "CC",
+    "kr": "셀 특성화 (CC)",
     "description": "",
     "discipline": "Cell"
   },
@@ -523,13 +523,7 @@
   },
   {
     "en": "Cohesion Force",
-    "kr": "응집력, 결착력",
-    "description": "",
-    "discipline": "Cell"
-  },
-  {
-    "en": "Cohesion Force",
-    "kr": "결착력",
+    "kr": "응집력 (결착력)",
     "description": "",
     "discipline": "Cell"
   },
@@ -553,7 +547,7 @@
   },
   {
     "en": "Complexation Process",
-    "kr": "복합화",
+    "kr": "복합화 공정",
     "description": "",
     "discipline": "Cell"
   },
@@ -1369,7 +1363,7 @@
   },
   {
     "en": "Heat Press Charging",
-    "kr": "HRC",
+    "kr": "열프레스 충전 (HRC)",
     "description": "",
     "discipline": "Cell"
   },
@@ -1921,7 +1915,7 @@
   },
   {
     "en": "NCM",
-    "kr": "Ni Co Mn",
+    "kr": "니켈코발트망간 (NCM)",
     "description": "",
     "discipline": "Cell"
   },
@@ -2114,12 +2108,6 @@
   {
     "en": "Particle Size",
     "kr": "입도",
-    "description": "",
-    "discipline": "Cell"
-  },
-  {
-    "en": "Particle Size",
-    "kr": "(분체) 입도",
     "description": "",
     "discipline": "Cell"
   },
@@ -2479,7 +2467,7 @@
   },
   {
     "en": "Solid Electrolyte Interphase",
-    "kr": "SEI",
+    "kr": "고체전해질계면 (SEI)",
     "description": "",
     "discipline": "Cell"
   },

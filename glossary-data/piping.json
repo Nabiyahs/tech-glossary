@@ -241,7 +241,7 @@
   },
   {
     "en": "In Site Battery Limit, ISBL",
-    "kr": "ISBL",
+    "kr": "부지 내 경계 (ISBL)",
     "description": "주요 설비 단위",
     "discipline": "Piping"
   },
@@ -325,7 +325,7 @@
   },
   {
     "en": "Out Site Battery Limit, OSBL",
-    "kr": "OSBL",
+    "kr": "부지 외 경계 (OSBL)",
     "description": "보조 설비, 책임 관할 경계 구분",
     "discipline": "Piping"
   },

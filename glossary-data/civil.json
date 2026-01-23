@@ -3025,7 +3025,7 @@
   },
   {
     "en": "Aspalt Concrete",
-    "kr": "아스콘",
+    "kr": "아스팔트 콘크리트 (아스콘)",
     "description": "",
     "discipline": "Civil"
   },
@@ -7423,7 +7423,7 @@
   },
   {
     "en": "by-pass highway",
-    "kr": "바이패스",
+    "kr": "우회도로",
     "description": "",
     "discipline": "Civil"
   },
@@ -8269,13 +8269,7 @@
   },
   {
     "en": "Cast-in-place Concrete",
-    "kr": "현장 타설 콘크리트",
-    "description": "",
-    "discipline": "Civil"
-  },
-  {
-    "en": "Cast-in-place Concrete",
-    "kr": "현장타설콘크리트",
+    "kr": "현장타설 콘크리트",
     "description": "",
     "discipline": "Civil"
   },
@@ -16165,14 +16159,8 @@
   },
   {
     "en": "Dike",
-    "kr": "방류벽",
+    "kr": "제방, 방유제",
     "description": "",
-    "discipline": "Civil"
-  },
-  {
-    "en": "Dike",
-    "kr": "수로, 제방, 방유제",
-    "description": "물의 흐름을 제어하는 구조물",
     "discipline": "Civil"
   },
   {
@@ -21985,7 +21973,7 @@
   },
   {
     "en": "fire　proof construction",
-    "kr": "내",
+    "kr": "내화구조",
     "description": "",
     "discipline": "Civil"
   },
@@ -24607,7 +24595,7 @@
   },
   {
     "en": "Gas M&R Station",
-    "kr": "Gas Metering & Reducing Station",
+    "kr": "가스 계량 및 감압 스테이션",
     "description": "",
     "discipline": "Civil"
   },
@@ -26347,7 +26335,7 @@
   },
   {
     "en": "hacking",
-    "kr": "해",
+    "kr": "거친면처리",
     "description": "",
     "discipline": "Civil"
   },
@@ -41364,12 +41352,6 @@
     "discipline": "Civil"
   },
   {
-    "en": "Plain Concrete",
-    "kr": "무근 콘크리트",
-    "description": "",
-    "discipline": "Civil"
-  },
-  {
     "en": "plain sedimentation",
     "kr": "보통침전",
     "description": "",
@@ -41829,12 +41811,6 @@
     "en": "platy joint",
     "kr": "판상절리",
     "description": "",
-    "discipline": "Civil"
-  },
-  {
-    "en": "Plinth",
-    "kr": "주추",
-    "description": "건축에서 기둥, 상, 기념비 등의 받침대",
     "discipline": "Civil"
   },
   {
@@ -45751,7 +45727,7 @@
   },
   {
     "en": "Ready-mixed Concrete",
-    "kr": "레미콘",
+    "kr": "레디믹스트 콘크리트 (레미콘)",
     "description": "",
     "discipline": "Civil"
   },
@@ -54679,14 +54655,8 @@
   },
   {
     "en": "Spillway",
-    "kr": "월류로, 여수로",
-    "description": "댐이나 저수지의 넘친 물을 흘려보내는 수로",
-    "discipline": "Civil"
-  },
-  {
-    "en": "Spillway",
     "kr": "여수로",
-    "description": "",
+    "description": "댐이나 저수지의 넘친 물을 흘려보내는 수로",
     "discipline": "Civil"
   },
   {
