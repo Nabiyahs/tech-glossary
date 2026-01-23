@@ -1,0 +1,144 @@
+
+==================================================
+Sheet: 용어대조표
+==================================================
+No.	한국어 (Korean)	영어 (English)	비고 (Notes)
+1	제·개정 이력	Document Revision History	문서관리
+2	개요	Overview	섹션명
+3	일반사항	General Information	섹션명
+4	목적	Purpose	
+5	기준서의 적용 범위	Application Scope of the Manual	
+6	BIM 적용 수준에 대한 기본 원칙	Fundamental Principles for BIM Application Level	
+7	기준서 기본 원칙	Basic Principles of the Manual	
+8	적용 원칙	Application Principles	
+9	책임 사항	Responsibilities	
+10	기준서 구성	Structure of the Manual	
+11	용어의 정의	Definitions of Terms	
+12	BIM 데이터 작성 기준	Standards for BIM Data Development	섹션명
+13	단계별 BIM 업무수행 절차	BIM Execution Procedures by Project Phase	
+14	BIM 수행 환경 구축	Establishing BIM Execution Environment	
+15	BIM 소프트웨어	BIM Software	
+16	BIM 데이터 파일포맷	BIM Data File Formats	
+17	프로젝트 개시를 위한 작업환경 설정	Work Environment Setup for Project Initiation	
+18	공종의 분류	Classification of Disciplines	
+19	BIM 데이터 파일명 작성 기준	BIM File Naming Convention	
+20	BIM 데이터 작성	BIM Data Development	
+21	BIM 데이터 작성 대상	BIM Data Development Targets	
+22	분야별 Ground Rule	Discipline-Specific Ground Rules	
+23	BIM 상세수준(LOD)	BIM Level of Detail (LOD)	
+24	BIM Library 작성 기준	Standards for BIM Library Development	
+25	Library 표준 속성 기준	Standard Parameter Requirements for Libraries	
+26	공종별 BIM 데이터 작성 기준	Discipline-Specific BIM Data Development Standards	
+27	MEP공종 SYSTEM 적용 기준	Standards for Applying MEP Systems	
+28	BIM 성과품 작성	BIM Deliverables Development	섹션명
+29	도면 작성 기준	Standards for Drawing Development	
+30	수량산출 작성 기준	Standards for Quantity Take-Off	
+31	BIM 수행계획서(BEP) 작성	Development of BIM Execution Plan (BEP)	
+32	BIM 수행 결과보고서 작성	Development of BIM Execution Final Report	
+33	BIM 데이터 품질검토 기준	Standards for BIM Data Quality Review	섹션명
+34	BIM 데이터 품질검토 일반사항	General Information on BIM Data Quality Review	
+35	BIM 데이터 품질검토 목적	Purpose of BIM Data Quality Review	
+36	BIM 데이터 품질검토 기본원칙	Basic Principles of BIM Data Quality Review	
+37	BIM 데이터 품질검토 기준 및 방법	Standards and Methods for BIM Data Quality Review	
+38	BIM 데이터 품질검토 방법	Methods for BIM Data Quality Review	
+39	BIM 성과품 납품 기준	Standards for BIM Deliverable Submission	섹션명
+40	BIM 성과품 제출 원칙	Principles for BIM Deliverable Submission	
+41	기본원칙	Basic Principles	
+42	성과품 제출 규정	Submission Requirements	
+43	BIM 성과품 대상	BIM Deliverable Targets	
+44	BIM 성과품 구성	Composition of BIM Deliverables	
+45	발주처	Client	일반
+46	발주자	Client	일반
+47	과업지시서	Statement of Work	일반
+48	입찰안내서	Bid Instructions / Tender Documents	일반
+49	설계공모 지침서	Design Competition Guidelines	일반
+50	성과품	Deliverables	일반
+51	납품	Submission / Delivery	일반
+52	품질검토	Quality Review	일반
+53	품질관리	Quality Control / Quality Management	일반
+54	협업	Collaboration	일반
+55	BIM 전면수행 방식	Full BIM Approach	BIM
+56	BIM 병행수행 방식	Hybrid BIM Approach	BIM
+57	BIM 전환수행 방식	BIM Conversion Approach	BIM
+58	BIM 저작도구	BIM Authoring Tools	BIM
+59	BIM 응용도구	BIM Application Tool	BIM
+60	BIM 라이브러리	BIM Library	BIM
+61	BIM 속성	BIM Properties	BIM
+62	BIM 성과품	BIM Deliverables	BIM
+63	BIM 수행계획서	BIM Execution Plan (BEP)	BIM
+64	BIM 결과보고서	BIM Execution Final Report	BIM
+65	공통정보관리환경	Common Data Environment (CDE)	BIM
+66	상세수준	Level of Development (LOD)	BIM
+67	프로젝트 Template	Project Template	Revit
+68	공유 매개변수	Shared Parameter	Revit
+69	프로젝트 매개변수	Project Parameter	Revit
+70	가시성	Visibility & Graphics	Revit
+71	프로젝트 좌표 설정 기준	Project Coordinate Setup Standards	Revit
+72	측량점	Survey Point	Revit
+73	프로젝트 기준점	Project Base Point	Revit
+74	공유 좌표	Shared Coordinates	Revit
+75	룩업 테이블	Lookup Table	Revit
+76	커넥터	Connector	Revit
+77	기준점	Reference Point	Revit
+78	기반 없음	Non-base	Revit
+79	대공종	Discipline	공종
+80	중공종	Subfield	공종
+81	건축	Architecture	공종
+82	구조	Structure	공종
+83	기계	Mechanical	공종
+84	배관	Piping	공종
+85	전기	Electrical	공종
+86	통신	Telecommunications	공종
+87	자동제어	Instrument & Control	공종
+88	전기소방	Electrical Fire Protection System	공종
+89	기계소방	Mechanical Fire Protection System	공종
+90	토목	Civil	공종
+91	설비	MEP (Mechanical, Electrical, Plumbing)	공종
+92	설계도면	Design Drawings	도면
+93	기본도면	Basic Drawings	도면
+94	보조도면	Supplementary Drawings	도면
+95	상세도	Detail Drawings	도면
+96	도면목록표	Drawing List	도면
+97	표제란	Title Block	도면
+98	도면명	Drawing Name	도면
+99	도면번호	Drawing Number	도면
+100	설계수량	Design Quantities	수량
+101	수량산출	Quantity Take-Off	수량
+102	자동 산출	Automated Method	수량
+103	연계 산출	Attribute-Linked Method	수량
+104	물량 산출	Quantity Calculation	수량
+105	간섭 검토	Clash Detection	품질
+106	물리적 간섭 검토	Physical Clash Detection	품질
+107	유효간섭	Active Clash	품질
+108	비유효간섭	Approved Clash / Invalid Clash	품질
+109	허용오차	Tolerance	품질
+110	정보품질	Information Quality	품질
+111	물리품질	Physical Quality	품질
+112	수동적 방법	Manual Method (Visual Check)	품질
+113	자동적 방법	Automated Method (Physical Clash Check)	품질
+114	기본설계	Design Development	단계
+115	실시설계	Detailed Design / Construction Document	단계
+116	시공단계	Construction Phase	단계
+117	유지관리 단계	Facility Management Phase	단계
+118	품명	Item Name	라이브러리
+119	재질	Material	라이브러리
+120	규격	Specification	라이브러리
+121	상세품명	Detailed Item Name	라이브러리
+122	단순 형상	Dummy (Simplified Geometry)	라이브러리
+123	필수 속성 정보	Mandatory Parameters / Standard Parameters	라이브러리
+124	표준 속성	Standard Parameter / Standard Property	속성
+125	설계 정보	Design Information	속성
+126	객체 정보	Object Information	속성
+127	시공 정보	Construction Information	속성
+128	속성정보	Property Information	속성
+129	프로젝트명	Project Name	파일명
+130	건물명	Building	파일명
+131	업체명	Company	파일명
+132	파일 분리	File Separation	파일명
+133	필수성과품	Mandatory Deliverables	기타
+134	선택성과품	Optional Deliverables	기타
+135	원본 데이터	Original Data	기타
+136	통합서버	Integrated Server	기타
+137	설계 완성도	Design Completeness	기타
+138	설계조건	Design Conditions	기타
+139	설계도서	Design Documents	기타
