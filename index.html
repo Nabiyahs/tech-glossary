@@ -4,6 +4,57 @@
 <div class="tech-glossary">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <style>
+        .tech-glossary {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            line-height: 1.6;
+        }
+
+        .tech-glossary * {
+            box-sizing: border-box;
+        }
+
+        .tech-glossary .glossary-header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 3px solid #0047AB;
+            padding-bottom: 20px;
+        }
+
+        .tech-glossary .glossary-title {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #0047AB;
+            margin-bottom: 10px;
+            margin-top: 0;
+        }
+
+        .tech-glossary .glossary-subtitle {
+            font-size: 1.5rem;
+            color: #666;
+            font-weight: 500;
+            margin: 0;
+        }
+
+        .tech-glossary .disclaimer-box {
+            background: #f8f9fa;
+            border-left: 4px solid #0047AB;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        .tech-glossary .disclaimer-box p {
+            margin: 0 0 10px 0;
+        }
+
+        .tech-glossary .disclaimer-box p:last-child {
+            margin-bottom: 0;
+        }
+
     .tech-glossary {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
       max-width: 1200px; margin: 0 auto; padding: 20px; background: #fff; line-height: 1.6;
@@ -2593,14 +2644,14 @@ const disciplineMap = {
   'Electrical': { abbreviation: 'Elec', koreanName: '전기', icon: 'fa-solid fa-bolt' },
   'Piping': { abbreviation: 'Piping', koreanName: '배관', icon: 'fa-solid fa-wrench' },
   'Civil': { abbreviation: 'Civil', koreanName: '토목', icon: 'fa-solid fa-mountain' },
-  'Instrument & Control': { abbreviation: 'I&C', koreanName: '계장', icon: 'fa-solid fa-sliders' },
+  'Instrument & Control': { abbreviation: 'I&C', koreanName: '제어', icon: 'fa-solid fa-microchip' },
   'Fire Protection': { abbreviation: 'FP', koreanName: '소방', icon: 'fa-solid fa-fire-extinguisher' },
   'HVAC': { abbreviation: 'HVAC', koreanName: '공조', icon: 'fa-solid fa-fan' },
   'Structure': { abbreviation: 'Struct', koreanName: '구조', icon: 'fa-solid fa-border-all' },
   'Cell': { abbreviation: 'Cell', koreanName: '배터리', icon: 'fa-solid fa-car-battery' },
   'BIM': { abbreviation: 'BIM', koreanName: 'BIM', icon: 'fa-solid fa-cubes' }
 };
-const disciplineOrder = ['General','Architecture','Electrical','Piping','Civil','Instrument & Control','Fire Protection','HVAC','Structure','Cell','BIM'];
+const disciplineOrder = ['General','Architecture','Civil','Structure','Fire Protection','Piping','Electrical','Instrument & Control','HVAC','BIM','Cell'];
 
 /* ===========================================
    3) 초기화
