@@ -1,0 +1,892 @@
+Discipline (분야)	English (영어)	Korean (한국어)
+소방	Above the ceiling	천장 상부
+소방	Aboveground Pipe and Tube	지상 배관 및 튜브
+건축	Access	접근
+건축	Accessible Means of Egress	장애인 피난수단
+건축	Accessible Means of Egress Required	장애인 피난수단 요구사항
+건축	Accessory Occupancies	부속 용도
+건축	Accessory Storage Spaces	부속 저장공간
+소방	Additional Locations Based on Travel Distance	피난거리에 기반한 추가 위치
+소방	Administration	관리
+건축	Aerosol  Fire-extinguishing Systems	에어로졸 소화설비
+건축	Aerosol Storage Uses	에어로졸 저장 용도
+건축	Aggregate Area of Mezzanines And Equipment Platforms	메자닌과 장비 플랫폼의 총 면적
+소방	Air or Nitrogen Supply Piping	공기 또는 질소 공급배관
+소방	Air Pressure	공기압
+소방	Air Supply	공기 공급
+소방	Air Supply	급기
+소방	Air Venting	공기 배출
+건축	Airflow Design Method	기류 설계 방식
+건축	Aisle Accessways In Group M	Group M의 통로 접근로
+소방	Aisle and Flue Space Requirements for Storage	저장을 위한 복도 및 연도 공간의 요구 사항
+건축	Aisles	통로
+건축	Aisles In Groups B And M	Group B 및 M 통로
+건축	Aisles In Other Than Assembly Spaces And Groups B And M	집회용도 및 Group B, M 외의 통로
+건축	Alarm Activation And Annunciation	경보 작동 및 발신
+소방	Alarm Control Units	경보 제어 장치
+소방	Alarm Signal Initiation — Fire Suppression Systems Other Than Sprinklers	경보 신호 개시 — 스프링클러 외의 소화 시스템
+소방	Alarm Signals	경보 신호
+소방	Alarm System Notification Outputs	경보 시스템의 통보 출력
+건축	Allowable Area	허용 면적
+건축	Allowable Area Determination	허용 면적 산정
+건축	Allowable Building Area	허용 건물 면적
+건축	Allowable Building Area, Height And Number of Stories	허용 건물 면적, 높이 및 층수
+건축	Allowable Building Height	허용 건물 높이
+건축	Allowable Building Height And Number of Stories	허용 건물 높이 및 층수
+건축	Allowable Materials	허용 물질
+소방	Allowable Sprinkler Omission Locations	스프링클러 생략이 허용된 장소
+건축	Alternative Automatic Fire-extinguishing System	대체 자동소화설비
+건축	Amount of Increase	증가량
+소방	Appliance Location	경보장치 위치
+건축	Applicability	적용성
+소방	Application	적용범위
+소방	Application	적용
+소방	Approval Required	승인 요구 사항
+건축	Area	면적, 구획
+건축	Area Limitation	면적 제한
+소방	Area of Coverage	적용 범위
+건축	Area of Refuge	피난 구역
+건축	Area of Refuge	피난안전구역
+건축	Area Smoke Detection	구역 연기감지
+건축	Atriums Connecting More Than Two Stories	2개 층 이상을 연결하는 아트리움
+건축	Attic, Under-floor And Concealed Spaces	다락, 바닥 하부 및 은폐공간
+소방	Audible Characteristics	가청 특성
+소방	Automatic Detection	자동감지
+소방	Automatic Detection	자동 감지
+소방	Automatic Response	자동 응답
+건축	Automatic Smoke Detection	자동 연기감지
+건축	Automatic Sprinkler System	자동스프링클러설비
+건축	Automatic Sprinkler System	자동 스프링클러시스템
+건축	Automatic Sprinkler Systems	자동 스프링클러시스템
+건축	Automatic Water Mist Systems	자동 물분무소화설비
+소방	Autonomous Control Unit (ACU)	자율 제어 장치(ACU)
+소방	Auxiliary Systems	보조 시스템
+건축	Basements	지하실
+소방	Basic Requirements	기본 요구사항
+소방	Bathrooms	욕실
+건축	Boiler, Incinerator and Furnace Rooms	보일러실, 소각장 및 난방실
+소방	Branch Circuit	분기 회로
+건축	Building Area	건물 면적
+소방	Building Construction and Storage: Heights and Clearance	건물 구조와 저장: 높이 및 간격
+소방	Building Height	건물 높이 및 층수
+건축	Building Height And Number of Stories	건물 높이 및 층수
+소방	Building System Information Unit (BSIU)	건물 시스템 정보 장치(BSIU)
+건축	Buildings On Same Lot	동일 대지 내의 건물
+건축	Business Group B	업무시설군 B
+건축	Calculated Fire Resistance	계산된 내화성능
+소방	Calculation Procedure	계산 절차
+건축	Capacity	용량
+건축	Carbon Dioxide Systems	이산화탄소 소화설비
+소방	Carbon Monoxide Detector Signals	일산화탄소 감지기 신호
+건축	Ceiling Height	천장 높이
+건축	Ceiling Panels	천장 패널
+소방	Ceiling Slope	천장 경사
+소방	Centrifugal Fire Pump Capacities	원심 소방펌프 용량
+소방	Centrifugal Pumps	원심 펌프
+소방	Chapter Organization	장 구성
+소방	Check Valve	체크 밸브
+소방	Circuits and Pathways	회로 및 경로
+소방	Circuits for Addressable Notification Appliances	어드레서블 경보 장치용 회로
+건축	Circuits Supplying Fire Pumps	소방펌프 공급 회로
+소방	Class A	Class A
+소방	Class B	Class B
+건축	Class B Fire Hazards	Class B 화재 위험
+소방	Class C	Class C
+건축	Class C Fire Hazards	Class C 화재 위험
+소방	Class D	Class D
+건축	Class D Fire Hazards	Class D 화재 위험
+소방	Class I and Class III Systems	Class I 및 Class III 시스템
+소방	Class I Systems	Class I 시스템
+소방	Class II Systems	Class II 시스템
+소방	Class III Systems	Class III 시스템
+소방	Class of Standpipe Systems	연결송수구 시스템 등급
+건축	Classification	분류
+소방	Classification of Hazard	위험도 분류
+건축	Clean-agent Fire-extinguishing Systems	청정약제 소화설비
+소방	Clear Space Around Hydrants	소화전 주변 공간
+건축	Clearance	이격거리
+건축	Closed System	폐쇄형 시스템
+소방	Closets and Pantries	옷장 및 팬트리
+소방	Cloud Ceilings	클라우드 천장
+소방	CMSA and ESFR K-Factors	CMSA 및 ESFR K-계수
+소방	Code Conformance	규정 준수
+소방	Combination Systems	복합 시스템
+소방	Combined Systems	복합 설비
+소방	Combined Systems	복합 시스템
+소방	Combustible Construction	가연성 구조
+건축	Combustible Liquid	가연성 액체
+건축	Combustible Storage	가연물 저장
+소방	Combustible Suspension Means	가연성 현가수단
+소방	Combustible Towers on Building Roofs	건물 옥상의 가연성 냉각탑
+건축	Commercial Cooking Systems	상업용 주방설비
+건축	Common Path of Egress Travel	공통 피난 경로
+건축	Concealed Space	은폐 공간
+소방	Concealed Space Design Requirements	은폐 공간 설계 요구사항
+소방	Concealed Spaces Requiring Sprinkler Protection	스프링클러 보호가 필요한 은폐공간
+소방	Connection to Driver and Alignment	드라이버 접속 및 정렬
+소방	Connections to Water Supplies	수원 연결
+건축	Construction	구조
+소방	Construction Materials of Water-Cooling Towers.	냉각탑의 건축 재료
+건축	Construction Requirements	구조 요구사항
+소방	Containment, Drainage, and Spill Control	격납, 배수 및 유출 제어
+건축	Continuity	연속성
+건축	Continuity And Components	연속성 및 구성요소
+소방	Continuity of Power Supplies	전원 공급의 연속성
+건축	Control Area	관리 구역
+건축	Control Diagrams	제어 계통도
+소방	Control Hierarchy	제어 계층 구조
+소방	Control Mode Density/Area Sprinkler Protection Criteria for Palletized, Solid-Piled, Bin Box, Shelf, or Back-to-Back Shelf Storage of Class I Through Class IV Commodities	Class I - IV 물품의 팔레트, 고형 적재, Bin 박스, 선반 또는 Back-to-back 선반 저장의 CMDA 스프링클러 방호 기준
+소방	Control Mode Density/Area Sprinkler Protection Criteria for Palletized, Solid-Piled, Bin Box, Shelf, or Back-to-Back Shelf Storage of Plastic and Rubber Commodities	플라스틱 및 고무 물품의 팔레트 적재, 밀집 적재, Bin 박스, 선반 또는 Back-to-back 선반 저장을 위한 CMDA 스프링클러 보호 기준
+소방	Control Valve	제어 밸브
+소방	Control Valve Supervisory Signal–Initiating Device	제어 밸브 감시 신호 개시 장치
+소방	Controller Location	제어반 위치
+건축	Cooking Equipment Fires	조리장비 화재
+건축	Corridors	복도
+건축	Corrosive	부식성 물질
+소방	Counterflow Towers	대향류형 냉각탑
+소방	Coupling Type	커플링 종류
+건축	Covered and Open Mall Buildings	밀폐형 및 개방형 몰 건물
+건축	Covered And Open Mall Buildings	밀폐형 및 개방형 몰 건축물
+소방	Crossflow Towers	직교류형 냉각탑
+건축	Dead Ends	막다른 구간
+소방	Definitions	정의
+소방	Deflector Position	디플렉터 위치
+건축	Delayed Egress	지연피난
+소방	Deluge Systems	델루지 시스템
+소방	Design	설계
+소방	Design Approach	설계 접근법
+소방	Design Approaches	설계 접근법
+소방	Design Area Sprinklers	설계 구역 스프링클러
+소방	Design Criteria	설계 기준
+소방	Design Densities	설계 밀도
+소방	Design Density	설계 밀도
+소방	Design Fundamentals	설계 기본사항
+소방	Design Objectives	설계 목표
+건축	Detached Buildings For Group H-1, H-2 Or H-3 Occupancy	(Group H-1, H-2 또는 H-3 용도를 위한 단독건물
+소방	Detection, Actuation, Alarm, and Control Systems for Clean Agent Releasing Applications	청정 소화 약제 방출 적용을 위한 감지, 작동, 경보 및 제어 시스템
+소방	Diesel Engine Drive	디젤 엔진 구동
+건축	Direction of Swing	개폐 방향
+소방	Discharge Considerations	방출 고려사항
+소방	Disposition of Signals	신호의 처리
+소방	Distinctive Evacuation Signal	다종 음향 피난 경보
+건축	Distribution of Minimum Width and Required Capacity	최소 너비 및 필요 수용인원의 분배
+소방	Door and Shutter Release	방화문 및 셔터 해정
+건축	Door Arrangement	문 배치
+건축	Door Operation	문 작동
+건축	Door, Gates, And Turnstiles	문, 게이트 및 회전식 문
+건축	Doors	피난문
+소방	Draft Curtains	방연커튼
+소방	Drainage	배수
+소방	Drop-Out Ceilings	낙하식 천장
+소방	Drop-Out Ceilings and Ceiling Materials	드롭아웃 천장 및 천장 재료
+소방	Dry	건식
+소방	Dry Pipe and Preaction Sprinkler Systems	건식 및 준비 작동식 스프링클러 시스템
+소방	Dry Pipe System Water Delivery	건식 배관 시스템의 급수
+소방	Dry Systems	건식 배관 시스템
+건축	Dry-chemical Systems	건식 화학소화설비
+소방	Duct Detector	덕트 감지기
+소방	Duct Protection	덕트 방호
+건축	Duct Smoke Detection	덕트 연기감지
+건축	Ducts And Air Transfer Opening	덕트 및 공기이송 개구부
+건축	Ducts and Air Transfer Openings	덕트 및 공기이송 개구부
+소방	Duration	지속 시간
+건축	Edge Protection	가장자리 보호
+건축	Egress Based On Occupant Load And Common Path of Egress Travel Distance	수용인원 및 공통 피난경로 이동거리에 따른 피난
+건축	Egress Based On Use	용도에 따른 피난
+건축	Egress Door Types	피난 출입문 유형
+건축	Egress From Spaces	공간에서의 피난
+건축	Egress Through Intervening Spaces	중간 공간을 통한 피난
+소방	Electric-Drive Controllers and Accessories	전동 제어반 및 부속품
+소방	Electrical Clearances	전기적 이격거리
+소방	Electrical Equipment Rooms	전기설비실
+건축	Electrical Rooms	전기실
+건축	Elevation Change	단차
+소방	Elevator Hoistways and Machine Rooms	승강로 및 기계실
+소방	Elevator Lobby Detector Location	엘리베이터 로비 감지기 위치
+건축	Elevator Lobby Separation	엘리베이터 로비 구획
+소방	Elevator Phase I Emergency Recall Operation	엘리베이터 1단계(Phase I) 비상복귀운전
+소방	Elevator Pits	엘리베이터 피트
+소방	Elevator Power Shutdown	엘리베이터 전원차단
+소방	Elevators	엘리베이터
+건축	Elevators And Conveying Systems	엘리베이터 및 운반설비
+건축	Elevators required	필수 엘리베이터
+건축	Emergency Alarm Systems	비상경보설비
+건축	Emergency and Standby Power	비상 및 대기 전원
+소방	Emergency Command Center	방재 센터
+소방	Emergency Communications Systems (ECSs)	비상통신시스템(ECS)
+소방	Emergency Control Function Interfaces	비상제어기능 인터페이스
+소방	Emergency Lighting	비상 조명
+소방	Emergency Response Plan Elements	비상 대응 계획 요소
+소방	Encapsulated Storage Over 15 ft (4.6 m) in Height Up to and Including 20 ft (6.1 m) in Height	높이 15 ft (4.6 m)를 초과하고 20 ft (6.1 m) 이하인 캡슐 저장
+소방	Enclosure	외함
+소방	Enclosures	외함
+건축	Enclosures Over Occupiable Roof Areas	거주 가능한 옥상 구역 상부의 구조물
+건축	Encroachment	침범
+건축	Energy Storage Systems	에너지 저장 시스템
+소방	Engineering Guide for Automatic Fire Detector Spacing	자동화재탐지기 이격 거리 공학 지침
+건축	Environment	환경
+건축	Equipment	장비 플랫폼
+소방	Equipment	설비
+소방	Equipment	장비
+소방	Equipment Enclosures	설비 외함
+건축	Equipment Platforms	장비 플랫폼
+소방	Equipment Protection	장비 보호
+소방	Equivalent Storage Arrangement	대응되는 저장 배열
+소방	ESFR Design Criteria	ESFR 설계 기준
+소방	ESFR K-Factor	ESFR K-계수
+소방	ESFR Protection of Rack Storage of Rubber Tires	고무 타이어 랙 저장  ESFR  방호
+소방	ESFR Sprinklers for Palletized, Solid-Piled, or Rack Storage of Class I Through Class IV and Group A Plastic Commodities	Class I - IV 및 Group A 플라스틱 물품의 팔레트, 밀집 적재 또는 랙 저장의 ESFR 스프링클러
+소방	ESFR Sprinklers for Protection of Roll Paper Storage	롤 페이퍼 저장 방호용 ESFR 스프링클러
+소방	Evacuation Procedures.	대피 절차
+소방	Exhaust Ducts	배기 덕트
+건축	Exhaust Method	배기 방식
+건축	Exit Access	피난통로 접근로
+건축	Exit Access	출구접근통로
+건축	Exit Access Doorway	비상문
+건축	Exit Access Stairway	비상계단
+건축	Exit Access Stairways	출구접근 계단
+건축	Exit Access Travel Distance	출구접근 보행거리
+건축	Exit And Exit Access Doorway Configuration	출구 및 출구접근통로의 출입문 구성
+건축	Exit Discharge	옥외로의 출구
+건축	Exit Passageway	피난복도
+건축	Exit Passageways	피난통로 접근로
+소방	Exit Passageways	피난 통로
+건축	Exit Signs	출구 표지
+건축	Explosion	폭발
+건축	Explosion Control	폭발 제어
+건축	Explosion Control Requirements	폭발 제어 요구사항
+건축	Explosive	폭발물
+소방	Exposure Protection	노출 방호
+소방	Exterior Projections	외부 돌출부
+건축	Exterior Wall	외벽
+소방	External Connections	외부 연결
+건축	Externally Illuminated Exit Signs	외부 조명식 피난구 표지
+소방	Extinguishment	소화
+소방	Extra Hazard (Group 1) (EH1)	특급 위험 (Group 1) (EH1)
+소방	Extra Hazard (Group 2) (EH2)	특급 위험 (Group 2) (EH2)
+건축	Fabrication Areas	제조 구역
+소방	Facilities	시설
+소방	Factory and Field Performance	공장 및 현장 성능
+건축	Factory Industrial Group F Occupancy	공장산업시설군 F 용도
+건축	Fire Alarm And Detection Systems	화재경보 및 감지설비
+소방	Fire Alarm Control Interface (FACI)	화재 경보 제어 인터페이스(FACI)
+소방	Fire Alarm Signal Initiation — Detection Devices	화재 경보 신호 개시 — 감지 장치
+소방	Fire Alarm Signal Initiation — Manual	화재 경보 신호 개시 — 수동
+소방	Fire Alarm Signal Initiation — Sprinkler Systems	화재 경보 신호 개시 — 스프링클러 시스템
+소방	Fire Alarm System Inputs	화재 경보 시스템 입력
+건축	Fire Alarm Systems Using Tone	음향을 사용하는 화재경보시스템
+건축	Fire And Smoke Protection Features	화재 및 연기 방호 설비
+건축	Fire Area	방화구역
+건축	Fire Barrier	방화구획
+건축	Fire Barriers	방화구획
+건축	Fire Command Center	방재센터
+소방	Fire Department Access and Water Supply	소방대 접근 및 급수
+건축	Fire Department Communication System	소방서 통신시스템
+소방	Fire Department Connections	연결송수구
+소방	Fire Department Connections	소방연결구
+건축	Fire Door Assemblies	방화문 조립체
+건축	Fire Fighter’s Smoke Control Panel	소방관용 제연 제어반
+소방	Fire Hazard or Fire Risk Analysis	화재 위험 또는 화재 리스크 분석
+소방	Fire Hydrants	소화전
+건축	Fire Partition	방화칸막이
+건축	Fire Partitions	방화칸막이
+소방	Fire Protection	소방
+건축	Fire Protection And Life Safety Systems	소방 및 인명안전 설비
+소방	Fire Protection System Design	소방 시스템 설계
+건축	Fire Pump and Riser Room Size	소화펌프 및 입상배관실 크기
+건축	Fire Pump and Riser Room Size	소방 펌프 및 라이저실 크기
+건축	Fire Pumps	소화펌프
+건축	Fire Resistance	내화성능
+건축	Fire Resistance Rating	내화성능
+건축	Fire Safety and Evacuation Plans	화재안전 및 피난계획
+건축	Fire Separation Distance	화재 이격거리
+건축	Fire Service Access Elevator	소방접근엘리베이터
+건축	Fire Service Access Elevator	소방구조용 엘리베이터
+건축	Fire Service Access Elevator Lobby	소방구조용 엘리베이터 로비
+소방	Fire Service Access Elevators	소방대원 진입용 엘리베이터
+건축	Fire Wall	방화벽
+건축	Fire Walls	방화벽
+건축	Fire Window Assemblies	방화창 조립체
+소방	Fire-Extinguishing Equipment for Cooking Operations in Buildings	건물 내 조리 작업을 위한 소화 설비
+건축	Fire-resistance Rated Walls	내화성능 벽체
+건축	Fire-resistance Rating	내화성능
+건축	Fire-resistance Rating In Each Occupancy	용도별 내화성능
+건축	Fire-resistance Rating Requirements For Building Elements	건축부재의 내화성능 요구사항
+건축	Fire-resistance Rating Requirements of Structure Members	구조부재의 내화성능 요구사항
+소방	Fittings	피팅
+소방	Fittings	부속품
+건축	Flammable And Combustible Liquids	인화성 및 가연성 액체
+건축	Flammable Liquid	인화성 액체
+건축	Floor And Roof Assembly	바닥 및 지붕 구조재
+건축	Floors	바닥
+건축	Floors In Storage Rooms	저장실 바닥
+소방	Flow Rate	유량
+소방	Flow Test	유량 시험
+소방	Flow Tests	유량 시험
+소방	Foam Concentrate Storage Tanks	포 원액 저장 탱크
+건축	Foam Systems	포 소화설비
+소방	Foam-Water Deluge Systems	포수 델루지 시스템
+소방	Foam-Water Wet Pipe, Dry Pipe, and Preaction Systems	포소화 습식, 건식 및 준비작동식 시스템
+소방	Foam-Water Wet Pipe, Dry Pipe, and Preaction Systems	포소화설비 습식, 건식 및 준비작동식 시스템
+소방	For Initiating Devices	기동 장치
+소방	For Notification Systems	경보 시스템의 통보 출력
+소방	Friction Loss	마찰 손실
+소방	Fuel Supply and Arrangement	연료 공급 및 배치
+소방	Fuel Supply Tank	연료 공급 탱크
+소방	Fur Storage Vaults	모피 보관 금고
+건축	Gas Rooms	가스실
+건축	General	일반사항
+건축	General	일반 사항
+건축	General	일반
+소방	General Definitions	일반 정의
+건축	General Design Requirements	일반 설계 요구사항
+소방	General Information	일반정보
+건축	General Means of Egress	일반 피난시설
+소방	General Performance.	일반 성능
+건축	General Requirements	일반 요구사항
+소방	General Requirements	일반 요구 사항
+소방	General Requirements	일반사항
+소방	General Requirements for Storage	저장 일반 요구사항
+건축	Glass Walls	유리벽
+건축	Glazing	유리창
+건축	Graphics	그래픽
+소방	Gridded Systems	그리드 시스템
+건축	Group A	Group A
+건축	Group B	Group B
+건축	Group E	Group E
+건축	Group F	Group F
+건축	Group F-1	Group F-1
+건축	Group H	Group H
+건축	Group H Occupancy Minimum Fire Separation Distance	Group H 용도 최소 화재이격거리
+건축	Group H-1	Group H-1
+건축	Group H-1, H-2, H-3, H-4 And H-5	Group H-1, H-2, H-3, H-4 및 H-5
+건축	Group H-2	Group H-2
+건축	Group H-2, H-3 And H-4 Occupancies	Group H-2, H-3 및 H-4 용도
+건축	Group H-3 And H-4	Group H-3 및 H-4
+건축	Group H-3 and H-4	Group H-3 및 H-4
+건축	Group H-5 Occupancy	Group H-5 용도
+건축	Group I	Group I
+건축	Group M	Group M
+건축	Group R	Group R
+건축	Group R-1	Group R-1
+건축	Group R-2	Group R-2
+건축	Group S	Group S
+건축	Group S-1	Group S-1
+건축	Group S-2 Parking Garage	Group S-2 주차장
+건축	Groups F-1 and S-1 Increase	Group F-1 및 S-1 증가
+건축	Groups H-2 And H-3	Groups H-2 및 H-3
+건축	Groups H-5 Increase	Group H-5 증가
+건축	Guards	난간
+소방	Guard’s Tour Supervisory Signal	경비원 순찰 감시 신호
+건축	Halon Systems	할론 소화설비
+건축	Handrail Extensions	손잡이 연장
+건축	Handrail Graspability	난간 파지성
+건축	Handrails	손잡이
+건축	Hardware Height	하드웨어 높이
+소방	Hazard Specifications	위험 사양
+건축	Hazardous Material	위험물질
+건축	Hazardous Materials	위험물질
+건축	Headroom	헤드룸(머리 위 여유공간)
+소방	Heat	난방
+소방	Heat Detectors	열감지기
+소방	Heat-Producing Devices with Composite Wood Joist Construction	복합 목재 장선 구조의 발열 기기
+소방	Heat-Sensing Fire Detectors	열감지식 화재감지기
+소방	Heating, Ventilating, and Air-Conditioning (HVAC)	난방, 환기 및 공기조화 (HVAC)
+건축	Height	높이
+건축	Height	단차
+건축	Height In Feet	높이
+건축	Height, Building	건물높이
+건축	Heights	단차
+건축	Helistops and Heliports	헬리스탑 및 헬리포트
+소방	High Air Movement Areas	공기 흐름이 많은 구역
+소방	High Ceiling	높은 천장
+소방	High Power Loudspeaker Array Enclosures	고출력 확성기 배열 외함
+소방	High Power Loudspeaker Array Noise Consideration	고출력 확성기 배열 소음 고려사항
+소방	High Power Loudspeaker Array Structural Loads, Wind, and Seismic Design	고출력 확성기 배열 구조물 하중, 바람 및 지진 설계
+소방	High Volume Low Speed (HVLS) Fans	대풍량 저속(HVLS) 팬
+건축	High-hazard Group H	고위험시설군 H
+건축	High-hazard Group H	고위험군 H
+건축	High-hazard Group H-1	고위험시설군 H-1
+건축	High-hazard Group H-2	고위험시설군 H-2
+건축	High-hazard Group H-3	고위험시설군 H-3
+건축	High-hazard Group H-4	고위험시설군 H-4
+건축	High-hazard Group H-5	고위험시설군 H-5
+건축	High-piled Combustible Storage Areas	고적재 가연물 저장구역
+소방	High-piled Storage	고적재 저장
+소방	High-Rack Storage	하이랙 창고
+건축	High-rise Building	고층건물
+건축	High-rise Building	고층 건물
+건축	High-rise Buildings	고층 건물
+건축	Horizontal Assemblies	수평 구조체
+건축	Horizontal Assembly	수평 구조체
+건축	Horizontal Assembly	수평 구조재
+건축	Horizontal Building Separation Allowance	건물의 수평 구획 허용
+소방	Horizontal Combustible Concealed Spaces	수평 가연성 은폐 공간
+건축	Horizontal Exit	수평 출구
+건축	Horizontal Exits	수평피난구
+소방	Horizontal Exits	수평 피난구
+건축	Horizontal Projections	수평 돌출물
+소방	Hose Allowance	호스 허용량
+소방	Hose Connection	호스 접결구
+소방	Hose Connections	호스 접결구
+소방	Hose Houses and Equipment	호스 보관함 및 설비
+소방	Hose Stream Allowance	호스 허용 방출량
+소방	Hose Stream Allowance and Water Supply Duration	호스 허용 방출량 및 급수 지속시간
+소방	Hose Streams	호스 방수
+소방	Hospital Clothes Closets	병원 옷장
+건축	Hybrid Fire Extinguishing Systems	하이브리드 소화설비
+소방	Hydrant Protection	소화전 방호
+소방	Hydrants	소화전
+소방	Hydraulic Calculation Procedures	수리 계산 절차
+소방	Hydraulic Calculation Requirements	수리계산 요구 사항
+소방	Hydraulic Calculation Requirements.	수리계산 요구 사항
+소방	Hydraulic Calculations	수리 계산
+소방	Hydraulic Elevators	유압식 엘리베이터
+소방	Hydrostatic Tests	수압 시험
+소방	In-Building Emergency Voice/Alarm Communications	건물 내 비상음성/경보 통신
+소방	In-Building Fire Emergency Voice/Alarm Communications Systems (EVACS)	건물 내 화재 비상 음성/경보 통신 시스템(EVACS)
+소방	In-Building Mass Notification Systems	건물 내 대규모 경보 시스템
+건축	Incidental Uses	부수적 용도
+소방	Indication of Central Station Service	중앙 감시 서비스의 표시
+건축	Information Required	필요 정보
+소방	Information, Command, and Control	정보, 지휘 및 통제
+건축	Initiating Device Identification	작동장치 식별
+건축	Initiating Devices	작동 장치
+소방	Initiating Devices	기동 장치
+건축	Installation And Monitoring	설치 및 감시
+소방	Installation of Pipe Hangers	배관 행거의 설치
+소방	Installation of Piping, Valves, and Appurtenances	배관, 밸브 및 부속품의 설치
+소방	Installation Requirements	설치 요구사항
+소방	Installation Requirements for Hanging and Support of System Piping	시스템 배관의 행잉 및 지지 설치 요건
+소방	Installation Requirements for Standard Pendent, Upright, Pendent, Sidewall Spray Sprinkler	표준형 하향식, 상향식 및 측벽식 스프레이 스프링클러의 설치 요구사항
+소방	Intelligible Voice Messages	명확한 음성 메시지
+소방	Interfaces with Wide-Area Mass Notification Systems	대규모 광역 경보 시스템과의 인터페이스
+건축	Interior Finish Requirements Based On Occupancy	용도별 내장재 요구사항
+건축	Interior Finishes	내장재
+건축	Interior Floor Finish	내부 바닥 마감재
+건축	Interior Wall And Ceiling Finish Materials Tested in Accordance with ASTM E84 or UL 723	ASTM E84 또는 UL 723에 따라 시험한 내부 벽 및 천장 마감재
+건축	Interior Wall And Ceiling Finish Materials Tested in Accordance with NFPA 286	NFPA 286에 따라 시험한 내부 벽 및 천장 마감재
+건축	Internally Illuminated Exit Signs	내부 조명식 피난구 표지
+소방	Introduction	서론
+소방	Jockey Pumps	충압 펌프
+건축	Joints And Voids	이음부 및 틈새
+건축	Joints And Voids In Smoke Barriers	방연구획 이음부 및 틈새
+소방	K-Factor Formula	K-계수 공식
+소방	K-Factors Greater than K-28.0 (400)	K-28.0 (400)을 초과하는 K-계수
+소방	Landings	계단참
+소방	Large Openings	대형 개구부
+건축	Lateral Location	횡방향 위치
+건축	Leakage Containment	누출 격리
+소방	Library Stack Areas and Record Storage	도서관 서가 구역 및 기록물 보관소
+건축	Life Safety Systems	인명안전시스템
+소방	Light Hazard	경급 위험
+건축	Lighting	조명
+소방	Liquid Supplies	액체 공급
+소방	Local Operating Console (LOC)	로컬 작동 콘솔(LOC)
+건축	Location	위치
+소방	Location and Spacing	위치 및 이격거리
+소방	Location for Smooth Ceiling	수평면 천장 위치
+건축	Location of Class I Standpipe Hose Connections	Class I 연결송수관 호스접결구 위치
+건축	Location of Class II Standpipe Hose Connections	Class II 연결송수관 호스접결구 위치
+건축	Location of Class III Standpipe Hose Connections	Class III 연결송수관 호스접결구 위치
+건축	Location of Occupied Levels	거주층의 위치
+소방	Location of Supply Air Source	급기원의 위치
+소방	Locations of Hose Connections	호스접결구 위치
+소방	Lockout Valves	잠금 밸브
+소방	Longitudinal Flue Space	종방향 연도 공간
+소방	Loudspeakers	확성기
+소방	Low Air Pressure Alarm	저기압 경보
+건축	Low-hazard Factory Industrial, Group F-2	저위험 공장산업시설군 F-2
+건축	Low-hazard Storage, Group S-2	저위험 저장시설군 S-2
+건축	Luminous Egress Path Markings	축광 피난경로 유도표시
+소방	Machine Rooms, Machinery Spaces, Control Rooms, and Control Spaces	기계실, 기계 공간, 제어실 및 제어 공간
+건축	Maintenance and Plans	유지보수 및 계획
+소방	Manifold Test Connection	매니폴드 연결 테스트
+소방	Manual Actuation	수동 작동
+건축	Manual Fire Alarm Boxes	수동 화재경보기
+소방	Manual Release Valve	수동 작동 밸브
+소방	Manually Actuated Alarm-Initiating Devices	수동 경보 개시 장치
+건축	Marking on Access Doors	점검구 표시
+소방	Mass Notification Layers	대규모 경보 층(Layer)
+소방	Maximum Distance Between Hangers	행거 간 최대 거리
+소방	Maximum Distance Between Sprinklers	스프링클러 간 최대 간격
+소방	Maximum Distance Between Sprinklers	스프링클러 간 최대 거리
+소방	Maximum Distance from Walls	벽체로부터 최대 거리
+건축	Maximum Floor Area Allowance per Occupant	수용인원 당 최대 허용 바닥 면적
+소방	Maximum Flow Rates for Individual Connections	개별 접속구의 최대 유량
+소방	Maximum Operating Pressure	최대 작동 압력
+소방	Maximum Pressure at Hose Connections	최소 및 최대 압력
+소방	Maximum Pressure for Centrifugal Pumps	원심펌프의 최대 압력
+건축	Means of Egress	피난수단
+건축	Means of Egress	피난시설
+건축	Means of Egress Sizing	피난시설 규모 산정
+건축	Measurement	측정
+건축	Mechanical Ventilation	기계환기
+소방	Messages for One-Way Emergency Communications Systems	단방향 비상 통신 시스템용 메시지
+건축	Mezzanine	메자닌(중층)
+건축	Mezzanine	메자닌
+건축	Mezzanines And Equipment Platforms	메자닌 및 장비 플랫폼
+소방	Microphone Use	마이크 사용
+건축	Minimum Critical Radiant Flux	최소 임계복사열유속
+소방	Minimum Design Pressure for Hydraulically Designed Systems	수리설계시스템의 최소 설계 압력
+소방	Minimum Distance Between Sprinklers	스프링클러 간 최소 거리
+소방	Minimum Distance from Obstructions	장애물로부터 최소 거리
+소방	Minimum Distance from Walls	벽체로부터 최소 거리
+소방	Minimum Distances Between Sprinklers	스프링클러 간 최소 거리
+소방	Minimum Distances from Walls	벽체로부터 최소 거리
+소방	Minimum Flow Rate	최소 유량
+건축	Minimum Frontage Distance	최소 전면부 거리
+소방	Minimum Operating Pressure	최소 작동 압력
+소방	Minimum Pressure at Hose Connection	호스 접결구의 최소 압력
+건축	Minimum Pressure Difference	최소 압력차
+소방	Minimum Rate of Application	최소 살수율
+소방	Minimum Rate of Flow	최소 유량
+건축	Minimum Width	최소 폭
+건축	Mixed Occupancies	복합 용도
+건축	Mixed Occupancy	복합 용도
+건축	Mixed Use And Occupancy	혼합 사용 및 용도
+건축	Mixed-occupancy Buildings	복합 용도 건물
+건축	Moderate-hazard Factory Industrial, Group F-1	중위험 공장산업시설군 F-1
+건축	Moderate-hazard Storage, Group S-1	중위험 저장시설군 S-1
+건축	Monitored or Recorded Egress, and Access Control Systems	감시 또는 기록되는 피난 및 출입통제시스템
+소방	Monitoring for Integrity	무결성 감시
+소방	Mounting	설치
+건축	Multiple Hazards	다중 위험
+건축	Multiple-channel Voice Evacuation	다중 음성경보 시스템
+소방	Multiple-Injection Systems	다중 송기 시스템
+건축	Non-separated Occupancies	비분리 용도
+건축	Noncombustibility Tests	불연성 시험
+소방	Noncombustible and Limited-Combustible Elevators	불연성 및 준불연성 엘리베이터
+소방	Noncombustible Construction	불연성 구조
+소방	Noncombustible Stairways	불연성 계단
+소방	Noncombustible Vertical Shafts	불연성 수직 샤프트
+소방	Notification Appliances	경보장치 위치
+소방	Notification Appliances in Exit Stair Enclosures, Exit Passageways, and Elevator Cars	비상구 계단, 비상구 통로 및 엘리베이터 내 경보 장치
+소방	Notification Coverage	경보 범위
+소방	Notification Zones	통보 구역
+소방	Number and Location	개수 및 위치
+건축	Number of Control Area	관리 구역의 개수
+건축	Number of Exit And Exit Access Doorway	출구 및 출구접근통로의 출입문 개수
+건축	Number of Exits	출구 개수
+소방	Number of Standpipes	Standpipe 개수
+건축	Number of Stories	층수
+소방	Number of Supplies	급수 개수
+소방	Obstructed Construction	장애 구조
+소방	Obstruction to Sprinkler Discharge (Standard Pendent and Upright Sprinklers)	스프링클러 살수의 장애물
+소방	Obstructions At or Above the Deflector Affecting Sprinkler Discharge Pattern Development	스프링클러 살수 패턴 전개에 영향을 미치는 디플렉터 높이 또는 상부의 장애물
+소방	Obstructions Below the Deflector Affecting Sprinkler Discharge Pattern Development	스프링클러 살수 패턴 전개에 영향을 미치는 디플렉터 하부 장애물
+건축	Occupancies Containing Explosives Not Classified As H-1	H-1으로 분류되지 않는 폭발물 포함 용도
+건축	Occupancy Classification	용도 분류
+건축	Occupancy Exemptions	용도 면제사항
+소방	Occupancy Hazard Fire Control Approach for Spray Sprinklers	분무형 스프링클러의 용도위험 화재제어 방식
+소방	Occupancy Limitations	점유 제한사항
+소방	Occupant Evacuation Elevators (OEE)	재실자 피난용 엘리베이터(OEE)
+건축	Occupant Load	수용인원
+건축	Occupant Notification	재실자 통보
+소방	Occupant Notification	재실자 경보
+건축	Occupiable Roofs	거주 가능한 옥상
+건축	Occupiable Space	점유거주가능공간
+소방	Open Stairs	개방 계단
+건축	Open System	개방시스템
+소방	Open-Grid Ceilings	개방형 그리드 천장
+건축	Opening Protective	개구부 보호
+소방	Operating Alarms, Notification Appliances, and Indicators	작동 경보, 통보 장치 및 표시기
+소방	Operating Controls	작동 제어
+소방	Operation of Class A Radio Pathways	Class A 무선 경로의 작동
+소방	Operation of Class B Radio Pathways	Class B 무선 경로의 작동
+소방	Ordinary Hazard (Group 1)	중급 위험 (Group 1)
+소방	Ordinary Hazard (Group 2)	중급 위험 (Group 2)
+건축	Organic Peroxide	유기과산화물
+건축	Other Egress Components	기타 피난요소
+건축	Other Projections	기타 돌출물
+건축	Other Required Fire Protection Systems	기타 필수 소방설비
+소방	Output Signals from a Wireless Receiver/Transceiver of a Control Unit	제어 장치의 무선 수신기/송신기에서 나오는 출력 신호
+건축	Oxidizer	산화제
+건축	Panic And Fire Exit Hardware	패닉 및 출구 하드웨어
+소방	Password Protection	비밀번호 보호
+소방	Pathways Class Designations	경로 등급 지정
+소방	Peaked	박공형 천장
+건축	Penetration	관통부
+건축	Penetrations	관통부
+건축	Penetrations In Smoke Barriers	방연구획 관통부
+건축	Percentage of Maximum Allowable Quantities	최대 허용 퍼센트
+소방	Performance of Initiating Device Circuits (IDCs)	기동 장치 회로(IDC)의 성능
+소방	Performance of Notification Appliance Circuits (NACs)	경보 장치 회로(NAC)의 성능
+소방	Performance of Signaling Line Circuits (SLCs)	신호선 회로(SLC)의 성능
+소방	Performance-Based Design	성능위주설계
+소방	Performance-Based Design of Mass Notification Systems	성능위주설계의 대중경보시스템
+소방	Personnel	인원
+소방	Personnel Safety	인원 안전
+소방	Pilot Line Detection Systems	파일럿 라인 감지 시스템
+소방	Pipe Network	파이프 네트워크
+소방	Piping Drainage	배관 배수
+소방	Piping Installation	배관 설치
+소방	Plans and Calculations	계획 및 계산
+건축	Portable Fire Extinguishers	소화기
+소방	Portable Fire Extinguishers	휴대용 소화기
+소방	Position, Location, Spacing, and Use of Sprinklers	스프링클러 위치, 장소, 간격 및 사용
+소방	Positive Alarm Sequence	적극적 경보 시퀀스
+소방	Post Indicator Valves	개폐표시형 밸브
+건축	Post-mounted Objects	입상 피난방해물
+건축	Posting of Occupant Load	수용인원 게시
+건축	Power Connections	전원 연결
+소방	Power Supplies	전원 공급 장치
+소방	Power Supply Sources	전원 공급원
+건축	Power-operated Doors	자동문
+소방	Pre-action Systems and Deluge Systems	준비작동식 설비 및 일제살수식 설비
+소방	Presignal Feature	사전 신호 기능
+소방	Pressure Differences Across Doors	문의 압력차
+소방	Pressure Differences Across Spaces	공간 간 압력차
+소방	Pressure Gauges	압력 게이지
+소방	Pressure Limitation	압력 한도
+소방	Pressure Supervisory-Signal-Initiating Device	압력 감시 신호 개시 장치
+소방	Pressure Tank	압력 탱크
+건축	Pressurization Method	가압 방식
+소방	Primary Power Supply	주 전원 공급 장치
+소방	Priority	우선순위
+소방	Private Fire Service Mains	민간 소방용수 주배관
+소방	Private Fire Service Mains Beneath Buildings	건물 하부의 민간 소방용수 주배관
+소방	Private Mode Audible Requirements	사설 모드 가청 요구사항
+건축	Projections	돌출물
+건축	Projections Into Clear Opening	유효 폭으로의 돌출부
+소방	Proportioning System	혼합 장치
+소방	Protected Premises Alarm and Signaling Systems	방호구역 경보 및 신호 시스템
+소방	Protection Against Freezing	동결 방지
+소방	Protection Areas per Sprinkler (Standard Pendent and Upright Sprinklers)	스프링클러 당 보호 면적
+소방	Protection for Fan Drive Motor	팬 구동 모터 방호
+소방	Protection of Exposed Expanded Group A Plastics	노출형 발포 Group A 플라스틱 방호
+건축	Protection of Fire Pump Rooms	소화펌프실의 방호
+소방	Protection of High-Piled Storage Using Control Mode Density Area (CMDA) Sprinklers	제어모드밀도면적(CMDA) 스프링클러를 사용한 고적재 저장 보호
+소방	Protection of Private Fire Service Mains	민간 소방용수 주배관의 방호
+소방	Protection of Rack Storage Using In-Rack Sprinklers	인랙 스프링클러를 사용한 랙 저장의 방호
+소방	Protection of Specific Facility Elements	특정 시설 요소의 방호
+소방	Protection of Storage	저장 보호
+소방	Protection Options	방호 방법
+건축	Protruding Objects	돌출물
+소방	Public Address (PA) Systems interface with Facility Fire Alarm System	시설 화재 경보 시스템과의 공공 방송(PA) 시스템 인터페이스
+소방	Public Address (PA) Systems used for Emergency Communications	비상 통신에 사용되는 공공 방송(PA) 시스템
+소방	Public Mode Audible Requirements	공중 모드 가청 요구사항
+소방	Pumps	펌프
+소방	Pumps, Drivers, and Controllers	펌프, 드라이버, 콘트롤러
+소방	Purpose	목적
+소방	Quick-Response Sprinklers	속동형 스프링클러
+소방	Rack Storage	랙 저장
+소방	Raised Floors and Suspended Ceilings	이중 바닥 및 천장
+건축	Ramps	경사로
+소방	Record Keeping and Reporting	기록 보관 및 보고
+건축	Reduction In Fire-resistance Rating	내화등급의 완화
+건축	Refrigerated Rooms or Spaces	냉동 기계실 또는 공간
+건축	Refrigeration Machinery Rooms	냉동 기계실
+건축	Refuge Area	피난안전구역
+소방	Relief Valve	릴리프 밸브
+소방	Relief Valves	릴리프 밸브
+소방	Relocation and Partial Evacuation	재배치 및 부분 피난
+건축	Remoteness of Interior Exit Stairways	내부 비상계단의 이격거리
+건축	Required Capacity Based On Occupant Load	수용인원에 따른 필요 용량
+건축	Required Damper Locations	댐퍼 설치 요구 위치
+소방	Required Emergency Communications Systems	필수 비상 통신 시스템
+소방	Requirements for Smoke and Heat Detectors	연기감지기 및 열감지기 요건
+소방	Requirements for System Components and Hardware	시스템 구성요소 및 하드웨어의 요구 사항
+소방	Residential Sprinklers	주택용 스프링클러
+건축	Restriction on Using Automatic Sprinkler System Exceptions or Reductions	스프링클러 설비 예외 또는 완화적용 제한
+소방	Restrictions	제한 사항
+소방	Restrictions for Normally Occupied Enclosures	평상시 점유되는 밀폐 공간의 제한
+건축	Revolving Doors	회전문
+소방	Revolving Doors Enclosures	회전문 방호구역
+건축	Riser Height and Tread Depth	단 높이 및 디딤판 깊이
+소방	Risk Analysis for Mass Notification Systems	대규모 경보 시스템의 위험 분석
+소방	Scope	적용 범위
+소방	Scope	범위
+소방	Secondary Power Supply	보조 전원 공급 장치
+건축	Sensor Locations	센서 위치
+건축	Separated Occupancies	분리 용도
+건축	Separating Fire Areas	방화구역 구획
+건축	Separating Incidental Uses	부수적 용도 구획
+건축	Separating Mixed Occupancies	복합용도 구획
+건축	Separating Smoke Compartments	방연구획
+건축	Separation	분리
+건축	Separation	구획
+건축	Separation	이격거리
+건축	Separation of Highly Toxic Solids And Liquids	고독성 고체 및 액체의 분리
+건축	Separation of Incompatible Materials	혼재불가 물질의 분리
+건축	Separation of Occupancies	용도 분리
+소방	Service Scope	서비스 범위
+건축	Shaft Enclosure	샤프트 구획벽
+건축	Shaft Enclosures	샤프트 구획벽
+건축	Shaft Enclosures	샤프트 구획
+소방	Shafts with Combustible Surfaces	표면이 가연성인 샤프트
+소방	Shed	외쪽 지붕
+건축	Shunt Trip	차단기 트립
+건축	Signage	표지
+소방	Signal Initiation — Fire Pump	신호 개시 — 소방 펌프
+소방	Signal Zoning	신호 구획화
+소방	Single- and Multiple-Injection Systems	단일 및 다중 송기 시스템
+소방	Single-Injection Systems	단일 송기 시스템
+건축	Single-occupancy Buildings	단일 용도 건물
+건축	Size	크기
+건축	Size And Distribution	크기 및 배치
+건축	Size of Doors	문의 크기
+소방	Size of Fire Mains	소방 주배관의 크기
+소방	Skylights	천창
+소방	SLC Zones	SLC 구역
+건축	Slope	기울기
+소방	Sloping Ceiling (Peaked and Shed)	경사 천장(박공 및 외쪽 지붕)
+소방	Small [11/2 in. (40 mm)] Hose Connections	소형(1 1/2 in. (40 mm)] 호스 접결구
+건축	Smoke And Heat Removal	연기 및 열 배출
+건축	Smoke Barrier	방연벽
+건축	Smoke Barrier	방연구획
+건축	Smoke Barrier Construction	방연구획 구조
+건축	Smoke Barriers	방연구획
+건축	Smoke Compartment	방연구획실
+건축	Smoke Control Systems	제언설비
+건축	Smoke Partition	연기차단벽
+건축	Smoke Proof Enclosure	방연구조물
+소방	Smoke-Sensing Fire Detectors	연기감지식 화재감지기
+건축	Smokeproof Enclosures	방연구획
+소방	Smooth Ceiling	수평면 천장
+소방	Sources	공급원
+소방	Spaces Maintained at Temperatures Below 32°F (0°C)	32°F (0°C) 이하로 유지되는 장소
+소방	Spacing	이격거리
+소방	Spacing for Beam Construction	보 구조물의 이격거리
+소방	Spacing in Rooms	실내 이격거리
+소방	Special Consideration	특별 고려사항
+건축	Special Detailed Requirements Based On Occupancy And Use	용도 및 사용에 따른 특별 세부 요건
+건축	Special Doors	특수문
+건축	Special Provisions	특별 조항
+건축	Special Provisions For Group H-1 Occupancies	Group H-1 용도를 위한 특별 규정
+건축	Special Provisions For Group H-2 And H-3 Occupancies	H-2 및 H-3 용도를 위한 특별 규정
+소방	Special Requirements for Low-Power Radio (Wireless) Systems	저전력 무선 시스템의 특별 요구사항
+소방	Special Sprinklers	특수 스프링클러
+소방	Spot-Type Detectors	스폿형 감지기
+소방	Spot-Type Smoke Detector	스폿형 연기 감지기
+소방	Sprinkler Access	스프링클러 접근
+소방	Sprinkler Coverage for Special Situation	특수 상황의 스프링클러 적용 범위
+소방	Sprinkler Discharge Characteristics	스프링클러 살수 특성
+소방	Sprinkler Location	스프링클러 위치
+소방	Sprinkler Location Requirements	스프링클러 장소 요구사항
+소방	Sprinkler Spacing	스프링클러 간격
+소방	Sprinkler System Hose Demand	스프링클러 설비 호스 요구량
+소방	Sprinkler Waterflow Alarm-Initiating Devices	스프링클러 유수검지 경보발신장치
+소방	Sprinkler-Protected Glazing	스프링클러 보호 유리창
+소방	Sprinklers	스프링클러
+소방	Stages	무대
+소방	Stair Shafts	계단 샤프트
+건축	Stair Treads And Risers	계단 디딤판 및 챌면
+소방	Stairs	계단
+소방	Stairs Serving Two or More Areas	2개 이상의 구역을 연결하는 계단
+건축	Stairway	계단
+건축	Stairway Communication System	계단실 통신시스템
+건축	Stairway Door Operation	계단실 문 작동
+건축	Stairway Doors	계단 출입문
+건축	Stairway Landing	계단 참
+건축	Stairway To Roof	지붕으로 연장
+건축	Stairway Width	계단 폭
+건축	Stairways	계단
+소방	Stairwell Pressurization Systems	계단실 가압 시스템
+소방	Standard Pendent and Upright Spray Sprinklers	표준형 하향식 및 상향식 스프레이 스프링클러
+소방	Standpipe Protection	옥내소화전 방호
+소방	Standpipe System Types	옥내소화전 시스템 유형
+건축	Standpipe Systems	연결송수관설비
+건축	Storage Group S	저장시설군 S
+소방	Stored Supply	저장 급수원
+소방	Stored-Energy Emergency Power Supply Systems (SEPSS)	저장 에너지 비상 전원 공급 시스템(SEPSS)
+소방	Strainers	스트레이너
+소방	Supervision	감시
+건축	Supervisory Service	감시 서비스
+소방	Supervisory Signal Initiation — Fire Suppression Systems Other Than Sprinklers	감시 신호 개시 — 스프링클러 외의 소화 시스템
+소방	Supervisory Signal Initiation — Sprinkler Systems	감시 신호 개시 — 스프링클러 시스템
+소방	Supervisory Signal-Initiating Devices	감시 신호 개시 장치
+소방	Supervisory Signals	감시 신호
+소방	Supplemental Sprinklers	보조 스프링클러
+소방	Support of Risers	입상관 지지
+건축	Supporting Construction	지지 구조
+소방	Suppression Design	소화 설계
+소방	Suppression System Actuation	소화 시스템 작동
+소방	Suspension Means	현가 수단
+소방	System Acceptance	시스템 인수
+소방	System Classification	시스템 분류
+소방	System Components	시스템 구성요소
+소방	System Components and Hardware	시스템 구성요소 및 하드웨어
+소방	System Design and Installation	시스템 설계 및 설치
+소방	System Features	시스템 기능
+소방	System Operation	시스템 작동
+소방	System Performance and Integrity	시스템 성능 및 완전성
+소방	System Requirements	시스템 요구 사항
+소방	System Scope	시스템 범위
+소방	System Types and Requirements	설비 유형 및 요구사항
+소방	Systems with Multiple Hazard Classifications	복수 위험으로 분류된 시스템
+소방	Tank Construction	탱크 구조
+건축	Tank Protection	탱크 보호
+소방	Temperature Characteristics	온도 특성
+건축	Temperature of Pump Room	펌프실의 온도
+소방	Test Pressures	시험 압력
+소방	Test Signals	시험 신호
+건축	Tested Assembly	시험된 구조체
+소방	Testing and Acceptance	시험 및 인수
+소방	Textual Visual Appliances	문자 시각 장치
+건축	Three or More Exits or Exit Access Doorways	3개 이상의 출구 또는 출구접근통로 출입문
+건축	Three Or More Exits Or Exit Access Doorways	3개 이상의 출구 또는 출구접근통로 출입문
+건축	Through Penetration Fire Stop System	설비 관통 내화충전시스템
+건축	Through Penetrations	관통부
+건축	Through-penetration Firestop System	관통부 방화충전 시스템
+건축	Through-penetration Firestop System	수평 구조체
+소방	Time Delays	시간 지연
+소방	Tones	경보음
+소방	Total Design Area	전체 설계 면적
+소방	Total Flooding Systems	전역 방출 시스템
+소방	Transverse Flue Space	횡방향 연도 공간
+소방	Trouble Signal Initiation	고장 신호 개시
+소방	Trouble Signals	고장 신호
+건축	Turnstiles And Similar Devices	회전식 문 및 유사장치
+건축	Two Exits Or Exit Access Doorways	2개의 출구 또는 출구접근통로 출입문
+건축	Two-way Communication	양방향 통신
+소방	Two-Way Radio Communications Enhancement Systems	양방향 무선 통신 향상 시스템
+건축	Type I	Type I
+건축	Type I And II	Type I 및 II
+건축	Type III	Type III
+건축	Type IV	Type IV
+건축	Type of Construction	구조 유형
+건축	Type V	Type V
+소방	Types and Locations of Discharge Outlets	방출구의 유형 및 위치
+소방	Types of Equipment	설비 유형 및 요구사항
+소방	Types of Systems	시스템의 유형
+소방	Types of Systems	시스템 유형
+건축	Underground Buildings	지하 건물
+소방	Underground Requirements	지하 요구사항
+건축	Unlimited Area Buildings	무제한 면적 건물
+소방	Unsupported Armover Length	비지지 암오버 길이
+소방	Unsupported Lengths	비지지 길이
+건축	Utility And Miscellaneous Group U	설비 및 기타용도군 U
+소방	Valve Closure Time	밸브 폐쇄 시간
+건축	Valve Supervision	밸브 감시
+소방	Valves	밸브
+소방	Ventilation	환기
+건축	Vertical Continuity	수직 연속성
+건축	Vertical Opening	수직 개구부
+소방	Vertical Openings	수직 개구부
+건축	Vertical Rise	수직 높이
+소방	Vertical Shafts	수직 샤프트
+소방	Video Image Smoke Detection	영상 이미지 연기 탐지
+소방	Visual Appliances	시각 장치
+소방	Visual Characteristics — Public Mode	시각적 특성 — 공중 모드
+소방	Visual Notification	시각 경보
+소방	Visual Signaling	시각 신호
+소방	Voice Evacuation Messages	음성 피난 메시지
+소방	Voice Messages	음성 메시지
+소방	Water Flow Test Devices	유량시험 장치
+건축	Water Reactives	수반응성 물질
+소방	Water Spray Nozzles	물분무 노즐
+소방	Water Supplies	급수
+소방	Water Supply	급수
+소방	Water Supply Connections	급수
+건축	Waterproof Room	방수실
+소방	Wet Pipe System	습식 배관 시스템
+소방	Wet, Dry, and Preaction Systems	습식, 건식 및 준비작동식 시스템
+건축	Wet-chemical Systems	습식 화학소화설비
+건축	Where Permitted	허용 조건
+건축	Where Required	설치 요구사항
+건축	Where Required—New Buildings And Structures	설치 요구사항—신축 건축물 및 구조물
+소방	Wide-Area Mass Notification Systems	대규모 광역경보 시스템
+건축	Width And Capacity	폭 및 용량
+건축	Width And Capacity	너비 및 용량
+건축	Zones	구역
