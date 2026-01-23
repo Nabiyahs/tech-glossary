@@ -95,6 +95,11 @@
     .term-kr { font-weight: 700; color: #0047AB; }
     .empty-state { text-align: center; padding: 30px; color: #666; font-style: italic; }
 
+    .sort-controls { display: flex; gap: 8px; margin-left: auto; }
+    .category-col { font-size: 12px; color: #495057; }
+    .category-cell { display: inline-flex; align-items: center; gap: 4px; background: #f0f4f8; padding: 4px 8px; border-radius: 4px; font-weight: 600; white-space: nowrap; }
+    .category-cell i { color: #0047AB; font-size: 11px; }
+
     .pagination-container { margin-top: 12px; padding: 12px; background: #f8f9fa; border-radius: 8px; border: 1px solid #e9ecef; display: flex; justify-content: space-between; align-items: center; gap: 14px; }
     .pagination-info { font-size: 13px; color: #6c757d; font-weight: 600; }
     .pagination-controls { display: flex; align-items: center; gap: 6px; }
@@ -144,6 +149,16 @@
         전체 보기
       </button>
     </div>
+    <div class="sort-controls" role="group" aria-label="정렬 방식">
+      <button class="view-btn" id="alphabetSortBtn" type="button">
+        <i class="fa-solid fa-arrow-down-a-z"></i>
+        알파벳순
+      </button>
+      <button class="view-btn active" id="relevanceSortBtn" type="button">
+        <i class="fa-solid fa-sitemap"></i>
+        연관성순
+      </button>
+    </div>
   </div>
 
   <!-- Discipline Shortcuts -->
@@ -154,10 +169,11 @@
     <table class="glossary-table" id="glossaryTable">
       <thead>
       <tr>
-        <th id="disciplineHeader" style="width:10%;display:none">구분</th>
-        <th style="width:30%">EN</th>
-        <th style="width:25%">KR</th>
-        <th style="width:35%">설명</th>
+        <th id="disciplineHeader" style="width:8%;display:none">구분</th>
+        <th id="categoryHeader" style="width:12%">Category</th>
+        <th style="width:28%">EN</th>
+        <th style="width:22%">KR</th>
+        <th style="width:30%">설명</th>
       </tr>
       </thead>
       <tbody id="glossaryTableBody"></tbody>
@@ -14598,6 +14614,343 @@ const disciplineMap = {
 const disciplineOrder = ['General','Architecture','Civil','Structure','Fire Protection','Piping','Electrical','Instrument & Control','HVAC','BIM','Cell'];
 
 /* ===========================================
+   2-1) 연관성 카테고리 매핑
+   =========================================== */
+const categoryMap = {
+  'Architecture': {
+    '도면/문서': {
+      icon: 'fa-solid fa-drafting-compass',
+      order: 1,
+      keywords: ['drawing', 'plan', 'section', 'elevation', 'detail', 'view', 'diagram', 'layout', 'scale', 'perspective', 'isometric', 'document', 'sheet', 'index', 'schedule']
+    },
+    '문/출입구': {
+      icon: 'fa-solid fa-door-open',
+      order: 2,
+      keywords: ['door', 'gate', 'turnstile', 'entrance', 'doorway', 'opening', 'leaf', 'frame', 'handle', 'knob', 'latch', 'swing', 'hinged', 'sliding', 'revolving', 'overhead', 'folding']
+    },
+    '계단/동선': {
+      icon: 'fa-solid fa-stairs',
+      order: 3,
+      keywords: ['stair', 'step', 'riser', 'tread', 'landing', 'ramp', 'circulation', 'corridor', 'aisle', 'walkway', 'passage', 'path', 'route', 'handrail', 'guard', 'railing']
+    },
+    '피난/안전': {
+      icon: 'fa-solid fa-person-running',
+      order: 4,
+      keywords: ['egress', 'exit', 'refuge', 'evacuation', 'emergency', 'alarm', 'fire', 'smoke', 'sprinkler', 'extinguish', 'detection', 'standpipe', 'hazard', 'protection', 'safety', 'combustible', 'flammable']
+    },
+    '면적/치수': {
+      icon: 'fa-solid fa-ruler-combined',
+      order: 5,
+      keywords: ['area', 'height', 'width', 'depth', 'distance', 'clearance', 'footage', 'volume', 'capacity', 'load', 'occupant', 'size', 'measurement', 'dimension', 'stories', 'grade']
+    },
+    '공간/실': {
+      icon: 'fa-solid fa-cube',
+      order: 6,
+      keywords: ['room', 'space', 'zone', 'basement', 'attic', 'mezzanine', 'lobby', 'vestibule', 'closet', 'shaft', 'enclosure', 'compartment', 'penthouse', 'platform']
+    },
+    '벽/바닥/천장': {
+      icon: 'fa-solid fa-layer-group',
+      order: 7,
+      keywords: ['wall', 'partition', 'floor', 'ceiling', 'roof', 'panel', 'drywall', 'gypsum', 'tile', 'covering', 'finish', 'membrane', 'insulation', 'baseboard', 'siding']
+    },
+    '창/유리': {
+      icon: 'fa-solid fa-window-maximize',
+      order: 8,
+      keywords: ['window', 'glass', 'glazing', 'skylight', 'transom', 'louver', 'tempered', 'laminated', 'vision']
+    },
+    '법규/인허가': {
+      icon: 'fa-solid fa-gavel',
+      order: 9,
+      keywords: ['code', 'approval', 'permit', 'certificate', 'occupancy', 'zoning', 'classification', 'requirement', 'compliance', 'rating', 'allowable', 'exception', 'regulation']
+    },
+    '지붕': {
+      icon: 'fa-solid fa-house-chimney',
+      order: 10,
+      keywords: ['roof', 'eave', 'ridge', 'gable', 'hip', 'mansard', 'gambrel', 'dormer', 'pitch', 'parapet', 'flashing', 'curb']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'General': {
+    '프로젝트/계약': {
+      icon: 'fa-solid fa-file-contract',
+      order: 1,
+      keywords: ['project', 'contract', 'client', 'contractor', 'subcontract', 'delivery', 'rfp', 'rfq', 'rfi', 'bid', 'award', 'procurement']
+    },
+    '설계': {
+      icon: 'fa-solid fa-compass-drafting',
+      order: 2,
+      keywords: ['design', 'engineering', 'drawing', 'plan', 'detail', 'specification', 'parameter']
+    },
+    '시공/공사': {
+      icon: 'fa-solid fa-helmet-safety',
+      order: 3,
+      keywords: ['construction', 'install', 'work', 'fastener', 'mounting', 'assembly']
+    },
+    '품질/안전': {
+      icon: 'fa-solid fa-shield-check',
+      order: 4,
+      keywords: ['quality', 'safety', 'test', 'inspection', 'resistance', 'protection']
+    },
+    '재료': {
+      icon: 'fa-solid fa-cubes',
+      order: 5,
+      keywords: ['steel', 'metal', 'iron', 'paint', 'coat', 'rubber', 'resin', 'material', 'zinc', 'galvaniz']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Civil': {
+    '도로/포장': {
+      icon: 'fa-solid fa-road',
+      order: 1,
+      keywords: ['road', 'pave', 'asphalt', 'concrete', 'curb', 'gutter', 'sidewalk', 'lane', 'traffic']
+    },
+    '배수/우수': {
+      icon: 'fa-solid fa-droplet',
+      order: 2,
+      keywords: ['drain', 'storm', 'water', 'sewer', 'pipe', 'culvert', 'catch', 'basin', 'manhole']
+    },
+    '토공/기초': {
+      icon: 'fa-solid fa-mountain-sun',
+      order: 3,
+      keywords: ['earth', 'excavat', 'fill', 'grade', 'slope', 'soil', 'compact', 'foundation', 'retaining']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Structure': {
+    '기둥/보': {
+      icon: 'fa-solid fa-table-columns',
+      order: 1,
+      keywords: ['column', 'beam', 'girder', 'member', 'frame']
+    },
+    '바닥/슬래브': {
+      icon: 'fa-solid fa-square',
+      order: 2,
+      keywords: ['slab', 'floor', 'deck', 'topping']
+    },
+    '철근/콘크리트': {
+      icon: 'fa-solid fa-cubes-stacked',
+      order: 3,
+      keywords: ['concrete', 'rebar', 'reinforc', 'steel', 'bar', 'stirrup', 'anchor']
+    },
+    '접합': {
+      icon: 'fa-solid fa-link',
+      order: 4,
+      keywords: ['connect', 'joint', 'weld', 'bolt', 'splice', 'embed']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Electrical': {
+    '배선/케이블': {
+      icon: 'fa-solid fa-plug',
+      order: 1,
+      keywords: ['cable', 'wire', 'conduit', 'tray', 'raceway', 'duct', 'conductor']
+    },
+    '배전반/분전반': {
+      icon: 'fa-solid fa-server',
+      order: 2,
+      keywords: ['panel', 'board', 'switch', 'breaker', 'bus', 'mcc', 'distribution']
+    },
+    '조명': {
+      icon: 'fa-solid fa-lightbulb',
+      order: 3,
+      keywords: ['light', 'lamp', 'fixture', 'luminaire', 'illuminat']
+    },
+    '접지/피뢰': {
+      icon: 'fa-solid fa-bolt',
+      order: 4,
+      keywords: ['ground', 'earth', 'lightning', 'surge', 'protection']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Piping': {
+    '배관': {
+      icon: 'fa-solid fa-grip-lines',
+      order: 1,
+      keywords: ['pipe', 'tube', 'line', 'piping', 'fitting', 'flange', 'elbow', 'tee', 'reducer']
+    },
+    '밸브': {
+      icon: 'fa-solid fa-sliders',
+      order: 2,
+      keywords: ['valve', 'gate', 'globe', 'check', 'ball', 'butterfly', 'control']
+    },
+    '펌프/탱크': {
+      icon: 'fa-solid fa-gas-pump',
+      order: 3,
+      keywords: ['pump', 'tank', 'vessel', 'reservoir']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'HVAC': {
+    '덕트': {
+      icon: 'fa-solid fa-wind',
+      order: 1,
+      keywords: ['duct', 'damper', 'diffuser', 'grille', 'louver', 'plenum']
+    },
+    '공조기기': {
+      icon: 'fa-solid fa-fan',
+      order: 2,
+      keywords: ['ahu', 'fcu', 'unit', 'coil', 'fan', 'blower', 'compressor', 'chiller', 'boiler']
+    },
+    '냉난방': {
+      icon: 'fa-solid fa-temperature-half',
+      order: 3,
+      keywords: ['cool', 'heat', 'temperature', 'refriger', 'thermal']
+    },
+    '환기': {
+      icon: 'fa-solid fa-arrows-rotate',
+      order: 4,
+      keywords: ['ventilat', 'exhaust', 'supply', 'air', 'fresh', 'return']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Fire Protection': {
+    '스프링클러': {
+      icon: 'fa-solid fa-shower',
+      order: 1,
+      keywords: ['sprinkler', 'head', 'pipe', 'riser', 'standpipe']
+    },
+    '소화설비': {
+      icon: 'fa-solid fa-fire-extinguisher',
+      order: 2,
+      keywords: ['extinguish', 'suppression', 'foam', 'gas', 'halon', 'co2', 'chemical']
+    },
+    '경보/감지': {
+      icon: 'fa-solid fa-bell',
+      order: 3,
+      keywords: ['alarm', 'detector', 'sensor', 'smoke', 'heat', 'notification']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Instrument & Control': {
+    '계기': {
+      icon: 'fa-solid fa-gauge',
+      order: 1,
+      keywords: ['gauge', 'meter', 'indicator', 'transmitter', 'sensor']
+    },
+    '제어': {
+      icon: 'fa-solid fa-sliders',
+      order: 2,
+      keywords: ['control', 'plc', 'dcs', 'hmi', 'scada', 'logic']
+    },
+    '밸브/액추에이터': {
+      icon: 'fa-solid fa-cog',
+      order: 3,
+      keywords: ['valve', 'actuator', 'positioner', 'solenoid']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'BIM': {
+    '모델링': {
+      icon: 'fa-solid fa-cube',
+      order: 1,
+      keywords: ['model', 'geometry', 'object', 'element', 'component', 'family', 'library']
+    },
+    '좌표/기준': {
+      icon: 'fa-solid fa-crosshairs',
+      order: 2,
+      keywords: ['coordinate', 'point', 'base', 'survey', 'level', 'grid']
+    },
+    '품질검토': {
+      icon: 'fa-solid fa-check-double',
+      order: 3,
+      keywords: ['clash', 'quality', 'review', 'check', 'validation']
+    },
+    '데이터/속성': {
+      icon: 'fa-solid fa-database',
+      order: 4,
+      keywords: ['data', 'parameter', 'property', 'attribute', 'information', 'lod']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  },
+  'Cell': {
+    '배터리': {
+      icon: 'fa-solid fa-battery-full',
+      order: 1,
+      keywords: ['battery', 'cell', 'module', 'pack', 'bms']
+    },
+    '전극/소재': {
+      icon: 'fa-solid fa-atom',
+      order: 2,
+      keywords: ['electrode', 'cathode', 'anode', 'electrolyte', 'separator', 'material']
+    },
+    '일반': {
+      icon: 'fa-solid fa-folder',
+      order: 99,
+      keywords: []
+    }
+  }
+};
+
+// 용어에 카테고리 할당 함수
+function assignCategory(term) {
+  const discipline = term.discipline;
+  const categories = categoryMap[discipline];
+  if (!categories) return '일반';
+
+  const searchText = ((term.en || '') + ' ' + (term.kr || '') + ' ' + (term.description || '')).toLowerCase();
+
+  let bestMatch = '일반';
+  let bestOrder = 999;
+
+  for (const [catName, catInfo] of Object.entries(categories)) {
+    if (catName === '일반') continue;
+    for (const keyword of catInfo.keywords) {
+      if (searchText.includes(keyword.toLowerCase())) {
+        if (catInfo.order < bestOrder) {
+          bestMatch = catName;
+          bestOrder = catInfo.order;
+        }
+        break;
+      }
+    }
+  }
+  return bestMatch;
+}
+
+// 현재 정렬 모드 (alphabet / relevance) - 기본값: relevance
+let currentSortMode = 'relevance';
+
+/* ===========================================
    3) 초기화
    =========================================== */
 function initializeGlossary() {
@@ -14626,6 +14979,12 @@ function setupEventListeners() {
   if (disciplineBtn) disciplineBtn.addEventListener('click', () => setView('discipline'));
   if (allBtn) allBtn.addEventListener('click', () => setView('all'));
 
+  // 정렬 모드 버튼
+  const alphabetBtn = document.getElementById('alphabetSortBtn');
+  const relevanceBtn = document.getElementById('relevanceSortBtn');
+  if (alphabetBtn) alphabetBtn.addEventListener('click', () => setSortMode('alphabet'));
+  if (relevanceBtn) relevanceBtn.addEventListener('click', () => setSortMode('relevance'));
+
   const firstBtn = document.getElementById('firstPageBtn');
   const prevBtn  = document.getElementById('prevPageBtn');
   const nextBtn  = document.getElementById('nextPageBtn');
@@ -14637,6 +14996,14 @@ function setupEventListeners() {
     const totalPages = Math.ceil(filteredDataGlobal.length / itemsPerPage) || 1;
     goToPage(totalPages);
   });
+}
+
+function setSortMode(mode) {
+  currentSortMode = mode;
+  document.getElementById('alphabetSortBtn').classList.toggle('active', mode === 'alphabet');
+  document.getElementById('relevanceSortBtn').classList.toggle('active', mode === 'relevance');
+  currentPage = 1;
+  renderTable(document.getElementById('searchInput').value || '');
 }
 
 /* ===========================================
@@ -14694,12 +15061,40 @@ function renderTable(searchTerm = '') {
     filtered = filtered.filter(t => t.discipline === selectedDiscipline);
   }
 
-  filtered.sort((a, b) => {
-    if (currentView === 'discipline') return a.en.localeCompare(b.en);
-    const ai = disciplineOrder.indexOf(a.discipline);
-    const bi = disciplineOrder.indexOf(b.discipline);
-    return ai !== bi ? ai - bi : a.en.localeCompare(b.en);
+  // 모든 용어에 카테고리 할당 (Category 열 표시를 위해)
+  filtered.forEach(t => {
+    t._category = assignCategory(t);
   });
+
+  // 연관성 정렬 모드
+  if (currentSortMode === 'relevance') {
+    // 카테고리 순서 및 알파벳순 정렬
+    filtered.sort((a, b) => {
+      if (currentView === 'all') {
+        const ai = disciplineOrder.indexOf(a.discipline);
+        const bi = disciplineOrder.indexOf(b.discipline);
+        if (ai !== bi) return ai - bi;
+      }
+
+      const catMapA = categoryMap[a.discipline] || {};
+      const catMapB = categoryMap[b.discipline] || {};
+      const catInfoA = catMapA[a._category] || { order: 99 };
+      const catInfoB = catMapB[b._category] || { order: 99 };
+
+      if (catInfoA.order !== catInfoB.order) {
+        return catInfoA.order - catInfoB.order;
+      }
+      return a.en.localeCompare(b.en);
+    });
+  } else {
+    // 알파벳순 정렬
+    filtered.sort((a, b) => {
+      if (currentView === 'discipline') return a.en.localeCompare(b.en);
+      const ai = disciplineOrder.indexOf(a.discipline);
+      const bi = disciplineOrder.indexOf(b.discipline);
+      return ai !== bi ? ai - bi : a.en.localeCompare(b.en);
+    });
+  }
 
   filteredDataGlobal = filtered;
 
@@ -14717,7 +15112,7 @@ function renderTable(searchTerm = '') {
   if (total === 0) {
     const row = tbody.insertRow();
     const cell = row.insertCell();
-    cell.colSpan = (currentView === 'discipline') ? 3 : 4;
+    cell.colSpan = (currentView === 'discipline') ? 4 : 5;
     cell.innerHTML = '<div class="empty-state">등록된 용어가 없습니다.</div>';
     document.getElementById('paginationContainer').style.display = 'none';
     return;
@@ -14727,11 +15122,19 @@ function renderTable(searchTerm = '') {
   pageData.forEach(t => {
     const row = tbody.insertRow();
 
+    // 전체 보기일 때 구분 열 표시
     if (currentView === 'all') {
       const dcell = row.insertCell();
       const badge = (disciplineMap[t.discipline]?.abbreviation) || t.discipline;
       dcell.innerHTML = '<span class="discipline-badge">' + badge + '</span>';
     }
+
+    // Category 열 추가
+    const catCell = row.insertCell();
+    const category = t._category || '일반';
+    const catInfo = categoryMap[t.discipline]?.[category] || { icon: 'fa-solid fa-folder' };
+    catCell.innerHTML = '<span class="category-cell"><i class="' + catInfo.icon + '"></i> ' + category + '</span>';
+    catCell.className = 'category-col';
 
     const en = row.insertCell();
     en.textContent = formatEnglishTerm(t.en || '');
