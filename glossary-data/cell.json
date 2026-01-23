@@ -1,0 +1,2948 @@
+[
+  {
+    "en": "(calcination) Furnace",
+    "kr": "소성로, 고온가열장치",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "(endpoint) Dragging",
+    "kr": "(끝단부) 끌림",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "(fine) Mark, Dent",
+    "kr": "(미세한) 찍힘, 함몰",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Absolute Value",
+    "kr": "절대값",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Accelerated Cycle Life Test",
+    "kr": "가속수명시험",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Accuracy",
+    "kr": "정확도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Acetic Acid Athyl",
+    "kr": "아세트산에틸",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Acid",
+    "kr": "산성의",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Acidity",
+    "kr": "산성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Activation Energy",
+    "kr": "활성화 에너지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Active Material",
+    "kr": "활물질",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Active Material-conductor-binder",
+    "kr": "활물질-도전재-바인더(활도바)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Active Substance",
+    "kr": "작용 물질",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Additional Resistance",
+    "kr": "추가저항",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Additives",
+    "kr": "첨가제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Adhesion",
+    "kr": "결착",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Adhesion Force, Adhesive Strength",
+    "kr": "접착력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Adhesive",
+    "kr": "접착제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aggregate",
+    "kr": "응집체",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aggregation",
+    "kr": "집합",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Air Supply",
+    "kr": "급기(給氣)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Al Foil",
+    "kr": "양극 기재",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Algorithm Adaptation",
+    "kr": "AA",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Alkaline",
+    "kr": "알칼리성의",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Alkaline",
+    "kr": "알칼라인",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Alkaline Battery",
+    "kr": "알카라인 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Alkalinity",
+    "kr": "알칼리성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Alkylated",
+    "kr": "알킬레이티드",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Alloy",
+    "kr": "합금",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aluminate",
+    "kr": "알루민산염",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aluminum",
+    "kr": "Al (알루미늄)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Amorphism",
+    "kr": "비결정",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Amorphous",
+    "kr": "비정질",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ampere",
+    "kr": "암페어",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ampere-hour",
+    "kr": "Ah",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Amplitude",
+    "kr": "진폭 (파동)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "An-isotropic",
+    "kr": "비등방성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Anode",
+    "kr": "음극",
+    "description": "배터리의 음극 전극",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Anodizing",
+    "kr": "양극 산화(피막) 처리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Antioxidant",
+    "kr": "산화방지제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aqueous",
+    "kr": "수계",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aqueous Solution",
+    "kr": "수용액",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Area",
+    "kr": "면적",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Aspect Ratio",
+    "kr": "종횡비",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Assembly",
+    "kr": "조립",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Atom",
+    "kr": "원자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Attraction-replusion Force",
+    "kr": "인력-척력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Average Operating Voltage",
+    "kr": "평균작동전압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Bare Area, Uncoated Foil",
+    "kr": "무지부",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Battery Cell",
+    "kr": "배터리 셀",
+    "description": "전기 에너지를 저장하는 기본 단위",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Battery Pack",
+    "kr": "배터리 팩",
+    "description": "여러 셀을 조합한 배터리 모듈",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Be Bonded",
+    "kr": "접착되다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Bending",
+    "kr": "만곡",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Bending Strength",
+    "kr": "꺾임 강도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Binder",
+    "kr": "바인더",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "BMS",
+    "kr": "BMS",
+    "description": "배터리 관리 시스템",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Bond",
+    "kr": "결합",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Boron",
+    "kr": "B (붕소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Bottle Neck",
+    "kr": "병목현상",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Brass",
+    "kr": "황동",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Brittle",
+    "kr": "취성이 있는",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Bronze",
+    "kr": "청동",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "By-product",
+    "kr": "부산물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "C-rate",
+    "kr": "C-rate",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Calcination, Annealing, Firing",
+    "kr": "소성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Capacity",
+    "kr": "용량",
+    "description": "배터리가 저장할 수 있는 전기량",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Capacity Drop, Sag, Fade",
+    "kr": "용량 저하",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Carbon",
+    "kr": "C (탄소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Carbonate",
+    "kr": "탄산염",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Casautive Factor (agent)",
+    "kr": "원인 인자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Catalyst",
+    "kr": "촉매(제)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cathode",
+    "kr": "양극",
+    "description": "배터리의 양극 전극",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cell Characterization",
+    "kr": "CC",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Center Of Winding",
+    "kr": "권심부",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Centrifugation",
+    "kr": "원심분리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Channel",
+    "kr": "통로",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Charge & Discharge Curve",
+    "kr": "충방전 곡선",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Charging",
+    "kr": "충전",
+    "description": "배터리에 전기 에너지를 저장하는 과정",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Chemical Evaluation Regulation",
+    "kr": "화평법",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Chlorine",
+    "kr": "CI (염소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Chromium",
+    "kr": "Cr (크롬)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Chronic",
+    "kr": "고질적인",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cluster",
+    "kr": "덩어리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Co-precipitation",
+    "kr": "공침",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Coating Dye",
+    "kr": "코팅 다이",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cobalt",
+    "kr": "Co (코발트)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Coefficient",
+    "kr": "계수",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cohesion Force",
+    "kr": "응집력, 결착력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cohesion Force",
+    "kr": "결착력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cold Pressing",
+    "kr": "냉간 압연",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Collect",
+    "kr": "포집(하다)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Comparative Sample",
+    "kr": "비교 시료",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Complexation Process",
+    "kr": "복합화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Composition",
+    "kr": "조성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Compound",
+    "kr": "합제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Compressing",
+    "kr": "압착",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Concave",
+    "kr": "오목한",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Conduct Current To",
+    "kr": "전도시키다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Conductance",
+    "kr": "전도도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Conducting Wire",
+    "kr": "도선",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Conductor",
+    "kr": "도전재",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Conical Flask",
+    "kr": "원뿔 플라스크",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Contact",
+    "kr": "접촉성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Contact Loss",
+    "kr": "비접촉",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Content (rate)",
+    "kr": "함량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Control, Suppress, Contain",
+    "kr": "억제하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Convex",
+    "kr": "볼록한",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cooling Pan",
+    "kr": "냉각팬",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Copper",
+    "kr": "Cu (구리)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Corrosion",
+    "kr": "부식",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Corrosion Resistance",
+    "kr": "내식성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Coulometry",
+    "kr": "전량 분석",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Counter Electrode",
+    "kr": "(상)대전극, 대전극",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Covalent",
+    "kr": "공유결합",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Credibility, Reliability",
+    "kr": "신뢰도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cross Section",
+    "kr": "단면",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Crystal Structure",
+    "kr": "결정 구조",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Crystalline",
+    "kr": "결정성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Crystallite",
+    "kr": "결정자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Crystallization",
+    "kr": "결정화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cu Foil",
+    "kr": "구리 호일(음극 기재)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Current Density",
+    "kr": "전류밀도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Curved Cell",
+    "kr": "커브드 셀",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cut, Break",
+    "kr": "차단",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cutting",
+    "kr": "끊어짐",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cycle Life, Cycleability",
+    "kr": "수명",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cycler",
+    "kr": "충방전기",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Cylindrical Cell",
+    "kr": "원형 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dead-end",
+    "kr": "끝단",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Decline, Drop, Fall, Decrease",
+    "kr": "하강",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Decomposition, Disassemble",
+    "kr": "분해(하다)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Defect",
+    "kr": "결함",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Defective",
+    "kr": "결함이 있는",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Defoamate",
+    "kr": "탈포",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Defoamer",
+    "kr": "소포제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Degradation",
+    "kr": "열화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dehydrogenate",
+    "kr": "수소를 탈리하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dehydrogenation",
+    "kr": "탈수소화",
+    "description": "유기 화합물에서 수소(H₂)를 제거하는 화학 반응",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Deintercalate",
+    "kr": "탈리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Delithiation, Delithiate",
+    "kr": "리튬 탈리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Denaturalized",
+    "kr": "변성물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dendrite",
+    "kr": "수지상돌기, 덴트라이트",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dependable Capacity",
+    "kr": "보증 용량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Deposition",
+    "kr": "침전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Depth",
+    "kr": "심도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Depth",
+    "kr": "깊이",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Detect Defect",
+    "kr": "불량 검출",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Diffraction",
+    "kr": "회절",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Diffusion Coefficient",
+    "kr": "확산계수",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Diffusivity",
+    "kr": "확산성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dimensional Stability",
+    "kr": "치수안정성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Direct Reaction",
+    "kr": "직접 반응",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Discharge Final Voltage",
+    "kr": "방전종지전압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Discharge Quantity",
+    "kr": "방전량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dischargeable",
+    "kr": "방전 가능한",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Discharging",
+    "kr": "방전",
+    "description": "배터리에서 전기 에너지를 방출하는 과정",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Discoloration",
+    "kr": "변색",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dislocation",
+    "kr": "빗감김",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dispersion",
+    "kr": "산포",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Displacement",
+    "kr": "변위 (變位)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dissolution, Elution",
+    "kr": "용출",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Distribute",
+    "kr": "분산하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Distribution",
+    "kr": "분산하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Double-side Coating",
+    "kr": "양면 코팅",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Double-sided",
+    "kr": "양면",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Dry Cell",
+    "kr": "건전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Drying Furnace",
+    "kr": "건조로",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Early Efficiency",
+    "kr": "초기 효율",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Eduction, Extraction",
+    "kr": "석출",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Elasticity",
+    "kr": "탄력성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electric Connector",
+    "kr": "전기적 연결체",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrode",
+    "kr": "전극",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrode Force",
+    "kr": "극판 결착력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrode Set 1",
+    "kr": "극판 1식",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrode, Plate",
+    "kr": "극판",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrolysis",
+    "kr": "전기분해",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrolyte",
+    "kr": "전해질",
+    "description": "이온 전도를 위한 화학 물질",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrolyte",
+    "kr": "전해액",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electromotive Force",
+    "kr": "기전력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electron",
+    "kr": "전자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Electrovalency",
+    "kr": "전자가",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Elicitation",
+    "kr": "도출",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Elute",
+    "kr": "용출하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Elution",
+    "kr": "용출",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Elution Volume",
+    "kr": "용출량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "End Of Winding",
+    "kr": "권말부",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "End Terminal",
+    "kr": "종단부",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Energy Density",
+    "kr": "에너지 밀도",
+    "description": "단위 무게당 저장 가능한 에너지량",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Enthalpy",
+    "kr": "엔탈피",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Equilibrium",
+    "kr": "평형",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Etch",
+    "kr": "식각하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ethyl Acetate",
+    "kr": "아세트산 에틸(초산 에틸)",
+    "description": "IUPAC 명명법",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Evaporation Loss",
+    "kr": "증발량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ex-situ",
+    "kr": "현장 외",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Exothermic Reaction",
+    "kr": "발열 반응",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "External Circuit",
+    "kr": "외부 회로",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Extrusion",
+    "kr": "압출",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Factor",
+    "kr": "인자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Fast Charge",
+    "kr": "급속 충전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Film",
+    "kr": "피막",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Fine Powder",
+    "kr": "미세한 분말",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Finishing Tape",
+    "kr": "마감 테이프",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Flatness",
+    "kr": "평탄도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Flexible Battery",
+    "kr": "플렉서블 배터리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Flourinate",
+    "kr": "불소화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Fluorine",
+    "kr": "F (불소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Folding",
+    "kr": "접힘",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Fore Terminal",
+    "kr": "선단부",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Formation",
+    "kr": "화성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Formation Charge-discharge",
+    "kr": "화성 충방전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Forward Reaction",
+    "kr": "정반응",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Fuel Cell",
+    "kr": "연료 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Full Charge",
+    "kr": "완전 충전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Full Discharge",
+    "kr": "완전 방전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Fusing, Melting",
+    "kr": "융착",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "FWHM (half-peak)",
+    "kr": "반가폭",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Gap",
+    "kr": "단차",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Gas Cell",
+    "kr": "기체 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Gatorade",
+    "kr": "게토레이",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Globular Particle",
+    "kr": "구형의 입자 형태",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Gold",
+    "kr": "Au (금)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Gradual, Gentle, Slight",
+    "kr": "완만",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Graphite",
+    "kr": "흑연",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Graphite Oxide",
+    "kr": "GO2, 흑연산화물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Half-width",
+    "kr": "반치폭",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hardness",
+    "kr": "경도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Have Large Current Consumption",
+    "kr": "소모전류가 크다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Heat Press",
+    "kr": "열간 압연",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Heat Press Charging",
+    "kr": "HRC",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Heat Sink Plate",
+    "kr": "방열판",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Heat Treatment",
+    "kr": "열처리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Height",
+    "kr": "높이",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "High Capacity",
+    "kr": "고용량, 대용량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "High Density",
+    "kr": "고밀도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "High Expansion",
+    "kr": "고팽창",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "High Mix",
+    "kr": "고합제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "High Power",
+    "kr": "고출력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hollow",
+    "kr": "빈 공간",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Humping",
+    "kr": "솟아오름, 솟음",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hydrochloric Acid",
+    "kr": "염산",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hydrodynamic",
+    "kr": "유압식",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hydrolysis",
+    "kr": "가수분해",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hydrophilicity",
+    "kr": "친수성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hydrophylic",
+    "kr": "침수성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Hydroxide",
+    "kr": "수산화물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Identical Capacity Level",
+    "kr": "동등 용량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ignition",
+    "kr": "발화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Impedence",
+    "kr": "임피던스",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Impinger, Dust Collector",
+    "kr": "집진기",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Impregnation",
+    "kr": "(전해액) 함침",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Impregnation, Immersion, Wetting, Wettability",
+    "kr": "함침",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Impurity",
+    "kr": "불순물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "In-situ",
+    "kr": "현장",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Include-release, Intercalate-deintercalate",
+    "kr": "흡장하다-방출하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Indefective-defective",
+    "kr": "양/불",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Inflection Point, Knee Point",
+    "kr": "변곡점",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Inflow",
+    "kr": "유입",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Inflow Path",
+    "kr": "유입경로",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Initial Capacity",
+    "kr": "초기 용량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Initiator",
+    "kr": "개시제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Injection",
+    "kr": "주액",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Injection (method)",
+    "kr": "압입(법)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Inlet",
+    "kr": "주액구",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Insertion, Intercalation",
+    "kr": "장입량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Insulation",
+    "kr": "절연",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Intensity",
+    "kr": "강도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Interface",
+    "kr": "계면",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Internal Pressure",
+    "kr": "내압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Intrinsic, Genuine",
+    "kr": "진성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ion Movement",
+    "kr": "이온의 이동성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ionization Tendency",
+    "kr": "이온화 경향",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Iron",
+    "kr": "Fe (철)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Iron Sulfide",
+    "kr": "FeS (황화철)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Iron Tip",
+    "kr": "인두 팁",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Irreversible",
+    "kr": "비가역",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Isotropic",
+    "kr": "등방성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "JIG",
+    "kr": "지그",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Kalium",
+    "kr": "K (칼륨)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Kind",
+    "kr": "계(系)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Large Area",
+    "kr": "대면적",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Laser Etching",
+    "kr": "레이저 식각",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lattice Constant",
+    "kr": "격자상수",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Layer-structure",
+    "kr": "층상 구조",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "LCO",
+    "kr": "Li Co O2, 리튬코발트옥사이드",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lead Storage Battery",
+    "kr": "납축 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Leakage",
+    "kr": "누액",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Li-ion Battery, LIB",
+    "kr": "리튬이온 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lithiation",
+    "kr": "리튬 치환 반응",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lithium Carbonate",
+    "kr": "탄산리튬",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lithium Hydroxide",
+    "kr": "수산화리튬",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lithium Oxide",
+    "kr": "리튬 산화물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Loading Level",
+    "kr": "로딩 레벨",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Long Lifetime",
+    "kr": "장수명",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Long-term Preservation",
+    "kr": "장기보존",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lower Lid",
+    "kr": "하부 덮개",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Lump",
+    "kr": "뭉쳐있다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Magnesium",
+    "kr": "Mg (마그네슘)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Magnification",
+    "kr": "배율",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Manganese",
+    "kr": "Mn (망간)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Manganese Dioxide",
+    "kr": "이산화망간",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Margin Of Error",
+    "kr": "오차 범위",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mass",
+    "kr": "질량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mass Spectrometric",
+    "kr": "질량 분석",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Matching, Synchronization",
+    "kr": "일치화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Material Property",
+    "kr": "물성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Material Safety Data Sheet (msds)",
+    "kr": "물질안전보건자료",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mechanical Impingement",
+    "kr": "기계적 충돌",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mechanical Strength",
+    "kr": "기계적 강도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Medium",
+    "kr": "매개체",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mercury",
+    "kr": "수은",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Metal Element",
+    "kr": "금속 원소",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Metalize",
+    "kr": "증착하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mimic",
+    "kr": "모식도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mix-mull-distribute",
+    "kr": "혼합-혼련-분산",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Mixing Rate",
+    "kr": "조성 비율",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Model, Type, Kind",
+    "kr": "기종",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Molecule",
+    "kr": "분자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Monomer",
+    "kr": "모노머",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Multiple Step",
+    "kr": "다단",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Natrium",
+    "kr": "Na (나트륨)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "NCM",
+    "kr": "Ni Co Mn",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Net Quantity",
+    "kr": "정량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Neutral",
+    "kr": "중성의",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Neutrality",
+    "kr": "중성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Neutralization",
+    "kr": "중화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ni-mh, Nickel-metal Hybrid Battery",
+    "kr": "니켈수소 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Nickel",
+    "kr": "Ni (니켈)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Niddle-like",
+    "kr": "침상형",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Nip-pressure",
+    "kr": "선압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Nitrogen",
+    "kr": "N (질소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Non-destructive",
+    "kr": "비파괴",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Nonspherical",
+    "kr": "비구형",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "NP Ratio",
+    "kr": "대항비",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "On A Regular Cycle",
+    "kr": "일정 주기로",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Onset Point",
+    "kr": "시작점",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Onset Temperature",
+    "kr": "시작 온도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Open-circuit Voltage, OCV",
+    "kr": "개방 (회로) 전압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Operating Voltage",
+    "kr": "작동 전압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Opponent",
+    "kr": "대립자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Optical Microscopy (om)",
+    "kr": "광학현미경",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ordorless",
+    "kr": "무취의",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Organic Solvent",
+    "kr": "유기 용매",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Orientation",
+    "kr": "배향",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Outgassing Amount",
+    "kr": "(기체) 발생량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Overcharge",
+    "kr": "과충전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Overcurrent",
+    "kr": "과전류",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Overly Discharged State",
+    "kr": "무리한 방전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Oxidation Level",
+    "kr": "산화가",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Oxide",
+    "kr": "산화물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Oxidize",
+    "kr": "산화되다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Oxygen",
+    "kr": "O (산소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Particle",
+    "kr": "입자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Particle Size",
+    "kr": "입도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Particle Size",
+    "kr": "(분체) 입도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Particulate Material",
+    "kr": "분체",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Phase Transition",
+    "kr": "상전이",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Phosphate",
+    "kr": "인산염",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Phosphorous",
+    "kr": "P (인)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Physical Cell",
+    "kr": "물리 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pigment",
+    "kr": "색소",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pin Hole",
+    "kr": "기포현상(핀홀)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Plate A With B",
+    "kr": "도금하다",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Plateau",
+    "kr": "수평구간",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Plating",
+    "kr": "도금",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pockmark, Pockmarked",
+    "kr": "곰보자국",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Polarized Light",
+    "kr": "편광",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Polimerization",
+    "kr": "중합",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Polymer",
+    "kr": "폴리머 (고분자)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Polymer Cell",
+    "kr": "폴리머 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pore",
+    "kr": "기공, 공극",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Porosity",
+    "kr": "기공률, 기공성, 다공성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Porosity, Permeability",
+    "kr": "통기도, 투과성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Porous",
+    "kr": "기공의",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pot Shape",
+    "kr": "항아리 형태",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Potassium Hydroxide",
+    "kr": "수산화칼륨",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Potential Difference",
+    "kr": "전위차",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Potentiostat",
+    "kr": "정전위",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Power",
+    "kr": "출력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Power Supply",
+    "kr": "전원 공급",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pre-charging",
+    "kr": "초기 충전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Precipitate",
+    "kr": "석출물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Precursor",
+    "kr": "전구체",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Press Pre-charging",
+    "kr": "프레스 프리차징",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pressing, Calendering, Rolling",
+    "kr": "압연",
+    "description": "금속 가공 방법",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pressure",
+    "kr": "가압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Pressure Difference",
+    "kr": "압력차",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Primary Cell",
+    "kr": "1차 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Primary Material",
+    "kr": "모제(원제)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Prismatic Cell",
+    "kr": "각형 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Process Technique",
+    "kr": "공정 기술력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Product",
+    "kr": "산출물",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Product",
+    "kr": "품",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Rupture",
+    "kr": "파쇄",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sample",
+    "kr": "시료",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Scatterplot",
+    "kr": "산점도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Scavenging",
+    "kr": "소기구공(청소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Seal",
+    "kr": "밀폐",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Secondary Battery (cell)",
+    "kr": "2차 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Self Discharge",
+    "kr": "자체 방전",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Separated Electrolyte",
+    "kr": "유리전해액",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Separator",
+    "kr": "분리막",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Shipping Test, Outgoing Test",
+    "kr": "출하 시험",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Short Circuit",
+    "kr": "단락",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Shrinkage",
+    "kr": "수축",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Side Reaction",
+    "kr": "부반응",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Silicon",
+    "kr": "Si (규소)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Silver",
+    "kr": "Ag (은)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Simulated Experiment",
+    "kr": "모사 실험",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sloping",
+    "kr": "기울기",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sodium",
+    "kr": "나트륨",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Solar Battery",
+    "kr": "태양 전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Solid",
+    "kr": "고형분",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Solid Electrolyte Cell",
+    "kr": "전고체 전지",
+    "description": "Solid State Battery",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Solid Electrolyte Interphase",
+    "kr": "SEI",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Solvent",
+    "kr": "용매",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Soot",
+    "kr": "그을음",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Specific Surface Area",
+    "kr": "비표면적",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Spread",
+    "kr": "도포",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Standard Reduction Potential",
+    "kr": "표준 환원 전위",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "State Of Charge, SOC",
+    "kr": "SOC, 충전 상태(%)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Stiff, Sharp",
+    "kr": "급격",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Stress, Strain",
+    "kr": "응력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Structure Change",
+    "kr": "구조전이",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Structure Collapse",
+    "kr": "구조 붕괴",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sturctural Stability",
+    "kr": "구조 안정성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Substance",
+    "kr": "물질",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Substitution",
+    "kr": "치환",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Substitution Reaction",
+    "kr": "치환 반응",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sulfur",
+    "kr": "S (황)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sulfur Species",
+    "kr": "황 화학종",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Super Wide Cell",
+    "kr": "초광폭 셀",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Supporter",
+    "kr": "지지체",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Suspension",
+    "kr": "현탁액",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Sweep Voltammetry",
+    "kr": "소제 전압전류법",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Swelling",
+    "kr": "팽윤, 스웰링",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Tensile Strength",
+    "kr": "인장강도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Terminal",
+    "kr": "단자",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Terminal Area",
+    "kr": "단자부",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Test Production",
+    "kr": "시생산",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thermal Battery",
+    "kr": "열전지",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thermal Imaging",
+    "kr": "열화상 카메라",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thermal Resistance",
+    "kr": "내열성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thermal Roll",
+    "kr": "감열지 롤",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Theshold Voltage",
+    "kr": "목전압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thick Coating",
+    "kr": "후막 코팅 공법",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thick Electrode",
+    "kr": "후막 극판",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thickness",
+    "kr": "두께",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Thin Coating",
+    "kr": "박막 코팅 공법",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Tin",
+    "kr": "Sn (주석)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Titanium",
+    "kr": "Ti (티타늄)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Titration",
+    "kr": "적정법",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Torn Apart",
+    "kr": "찢어짐",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Trace Location",
+    "kr": "위치 추적",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Trend",
+    "kr": "거동",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Tungsten",
+    "kr": "W (텅스텐)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ultra Thin Cell",
+    "kr": "초박형 셀",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ultrasonic Waves",
+    "kr": "초음파",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Unalive Gas",
+    "kr": "불활성 가스",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Uniformity",
+    "kr": "균일도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Upper Lid",
+    "kr": "상부 덮개",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Used Cell",
+    "kr": "사용셀",
+    "description": "조립 후 1개월 이상 지나거나 시험을 진행한 셀",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Vacuum",
+    "kr": "진공",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Vacuum Pressure",
+    "kr": "진공 가압",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Valence (atomic Value)",
+    "kr": "원자가",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Ventilator",
+    "kr": "급기장치",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Vertical Sputtering",
+    "kr": "수직 스퍼터링",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Viscosity",
+    "kr": "점도",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Viscosity Agent",
+    "kr": "증점제",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Void, Delamination",
+    "kr": "들뜸, 박리",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Volatile Substance",
+    "kr": "휘발 물질",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Volatility",
+    "kr": "휘발성",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Voltage Mobility",
+    "kr": "전위 유동",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Voltage Sag",
+    "kr": "전압강하",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Voltage Trend",
+    "kr": "전위 거동",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Voltammetry",
+    "kr": "전압전류법",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Volume Change",
+    "kr": "체적 변화",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Water Penetration",
+    "kr": "수분 침투",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Weight",
+    "kr": "중량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Weight Loss",
+    "kr": "중량(무게) 손실",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Weighting",
+    "kr": "칭량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Welding",
+    "kr": "용접",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Wetting Ability",
+    "kr": "함침 능력",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Width",
+    "kr": "폭, 너비",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Winded JR",
+    "kr": "권취된 젤리롤",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Winding",
+    "kr": "권취",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Working Electrode",
+    "kr": "작업전극",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Wrinkle",
+    "kr": "주름",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Yield, Elution Volume",
+    "kr": "용출량",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Zinc",
+    "kr": "Zinc (아연)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Zinc Sulfide",
+    "kr": "ZnS (황화아연)",
+    "description": "",
+    "discipline": "Cell"
+  },
+  {
+    "en": "Zinc-carbon Battery",
+    "kr": "망간 전지",
+    "description": "",
+    "discipline": "Cell"
+  }
+]
