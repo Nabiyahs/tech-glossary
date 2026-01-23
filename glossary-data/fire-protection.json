@@ -67,12 +67,6 @@
   },
   {
     "en": "Air Supply",
-    "kr": "공기 공급",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Air Supply",
     "kr": "급기",
     "description": "",
     "discipline": "Fire Protection"
@@ -157,12 +151,6 @@
   },
   {
     "en": "Application",
-    "kr": "적용범위",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Application",
     "kr": "적용",
     "description": "",
     "discipline": "Fire Protection"
@@ -205,13 +193,7 @@
   },
   {
     "en": "Auto-closing Door",
-    "kr": "자동폐쇄",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Automatic Detection",
-    "kr": "자동감지",
+    "kr": "자동폐쇄문",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -259,7 +241,7 @@
   },
   {
     "en": "Behavior",
-    "kr": "특성변화",
+    "kr": "거동, 특성",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -283,7 +265,7 @@
   },
   {
     "en": "Building Height",
-    "kr": "건물 높이 및 층수",
+    "kr": "건물 높이",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -295,7 +277,7 @@
   },
   {
     "en": "Bury",
-    "kr": "(소화전) 매립",
+    "kr": "매립형",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -355,25 +337,25 @@
   },
   {
     "en": "Class A",
-    "kr": "Class A",
+    "kr": "A급",
     "description": "",
     "discipline": "Fire Protection"
   },
   {
     "en": "Class B",
-    "kr": "Class B",
+    "kr": "B급",
     "description": "",
     "discipline": "Fire Protection"
   },
   {
     "en": "Class C",
-    "kr": "Class C",
+    "kr": "C급",
     "description": "",
     "discipline": "Fire Protection"
   },
   {
     "en": "Class D",
-    "kr": "Class D",
+    "kr": "D급",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -464,12 +446,6 @@
   {
     "en": "Combination Systems",
     "kr": "복합 시스템",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Combined Systems",
-    "kr": "복합 설비",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -985,7 +961,7 @@
   },
   {
     "en": "Emergency Command Center",
-    "kr": "방재 센터",
+    "kr": "비상 지휘센터",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -1052,12 +1028,6 @@
   {
     "en": "Engineering Guide for Automatic Fire Detector Spacing",
     "kr": "자동화재탐지기 이격 거리 공학 지침",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Equipment",
-    "kr": "설비",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -1219,7 +1189,7 @@
   },
   {
     "en": "Factory Mutual, FM",
-    "kr": "FM",
+    "kr": "FM (Factory Mutual)",
     "description": "미국 화재 보험사인 FM Global이 운영하는 방화 관련 시험기관",
     "discipline": "Fire Protection"
   },
@@ -1231,7 +1201,7 @@
   },
   {
     "en": "Fire Alarm Annunciator",
-    "kr": "수신기, 경보표시기",
+    "kr": "화재경보 표시기",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -1339,13 +1309,7 @@
   },
   {
     "en": "Fire Department Connections",
-    "kr": "연결송수구",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Fire Department Connections",
-    "kr": "소방연결구",
+    "kr": "소방 연결구",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -1447,19 +1411,13 @@
   },
   {
     "en": "Fire Partitions",
-    "kr": "복도 벽체",
+    "kr": "방화 구획벽",
     "description": "",
     "discipline": "Fire Protection"
   },
   {
     "en": "Fire Penetration",
     "kr": "화재침투",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Fire Protection",
-    "kr": "방화, 소방",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -1579,13 +1537,7 @@
   },
   {
     "en": "Fittings",
-    "kr": "피팅",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Fittings",
-    "kr": "부속품",
+    "kr": "피팅류",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -1753,13 +1705,7 @@
   },
   {
     "en": "General Requirements",
-    "kr": "일반 요구 사항",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "General Requirements",
-    "kr": "일반사항",
+    "kr": "일반 요구사항",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -2245,12 +2191,6 @@
   },
   {
     "en": "Light Hazard",
-    "kr": "경급위험용도, 경급화재위험",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Light Hazard",
     "kr": "경급 위험",
     "description": "",
     "discipline": "Fire Protection"
@@ -2432,12 +2372,6 @@
   {
     "en": "Maximum Distance Between Hangers",
     "kr": "행거 간 최대 거리",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Maximum Distance Between Sprinklers",
-    "kr": "스프링클러 간 최대 간격",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -2940,12 +2874,6 @@
     "discipline": "Fire Protection"
   },
   {
-    "en": "Presignal Feature",
-    "kr": "사전 신호 기능",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
     "en": "Pressure Differences Across Doors",
     "kr": "문의 압력차",
     "description": "",
@@ -3264,12 +3192,6 @@
     "discipline": "Fire Protection"
   },
   {
-    "en": "Scope",
-    "kr": "범위",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
     "en": "Secondary Power Supply",
     "kr": "보조 전원 공급 장치",
     "description": "",
@@ -3433,7 +3355,7 @@
   },
   {
     "en": "Smoke Fire Damper",
-    "kr": "방연댐퍼",
+    "kr": "방연방화댐퍼",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -3553,7 +3475,7 @@
   },
   {
     "en": "Sprinkler Demand",
-    "kr": "필요 방수량",
+    "kr": "스프링클러 필요 방수량",
     "description": "",
     "discipline": "Fire Protection"
   },
@@ -4039,12 +3961,6 @@
   },
   {
     "en": "Types of Systems",
-    "kr": "시스템의 유형",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Types of Systems",
     "kr": "시스템 유형",
     "description": "",
     "discipline": "Fire Protection"
@@ -4274,12 +4190,6 @@
   {
     "en": "Wet Pipe Sprinkler System",
     "kr": "습식스프링클러설비",
-    "description": "",
-    "discipline": "Fire Protection"
-  },
-  {
-    "en": "Wet Pipe System",
-    "kr": "습식설비",
     "description": "",
     "discipline": "Fire Protection"
   },

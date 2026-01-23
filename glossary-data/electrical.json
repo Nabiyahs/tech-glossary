@@ -144,24 +144,6 @@
     "discipline": "Electrical"
   },
   {
-    "en": "Circuit Breaker",
-    "kr": "회로 차단기",
-    "description": "회로 보호 장치",
-    "discipline": "Electrical"
-  },
-  {
-    "en": "Circuit Breaker",
-    "kr": "회로 차단기",
-    "description": "회로 보호 장치",
-    "discipline": "Electrical"
-  },
-  {
-    "en": "Circuit Breaker",
-    "kr": "(회로) 차단기",
-    "description": "전기 회로의 과부하나 단락을 차단하는 보호 장치",
-    "discipline": "Electrical"
-  },
-  {
     "en": "Circuit Configuration",
     "kr": "회로 구성",
     "description": "",
@@ -601,7 +583,7 @@
   },
   {
     "en": "IR/OCV",
-    "kr": "IR-OCV",
+    "kr": "절연저항/개방회로전압 (IR/OCV)",
     "description": "2차전지 및 Capacitor의 개방회로 전압과 내부저항을 측정하여 Battery의 특성 파악을 할 수 있는 장비",
     "discipline": "Electrical"
   },
@@ -781,7 +763,7 @@
   },
   {
     "en": "NG Sorter",
-    "kr": "NG sorter",
+    "kr": "불량품 선별기 (NG Sorter)",
     "description": "충방전기 및 IR/OCV로부터 측정된 데이터를 바탕으로 배터리 셀의 양/불을 판정하는 장비",
     "discipline": "Electrical"
   },
