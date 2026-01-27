@@ -287,8 +287,10 @@ function formatEnglishTerm(text) {
    =========================================== */
 let glossaryData = [];
 
-// JSON 파일 경로 설정 (Confluence 업로드 후 경로 수정 필요)
-const JSON_BASE_PATH = 'glossary-data';
+// Confluence 첨부파일 경로 (페이지에 JSON 파일을 첨부한 후 사용)
+// 페이지ID를 실제 값으로 변경하세요 (예: 123456789)
+const PAGE_ID = 'YOUR_PAGE_ID';
+const JSON_BASE_PATH = '/download/attachments/' + PAGE_ID;
 
 const jsonFiles = {
   'General': 'general.json',
