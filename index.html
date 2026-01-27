@@ -118,6 +118,19 @@
       .pagination-container { flex-direction: column; gap: 10px; text-align: center; }
       .pagination-controls { justify-content: center; flex-wrap: wrap; }
     }
+
+    /* Confluence 자동 테이블 아이콘 숨기기 */
+    .tech-glossary .tablesorter-header-inner .aui-icon,
+    .tech-glossary .confluenceTh .aui-icon,
+    .tech-glossary th .aui-icon,
+    .tech-glossary .tableFloatingHeader .aui-icon,
+    .tech-glossary .table-plus-btn,
+    .tech-glossary .table-filter-btn,
+    .tech-glossary [data-macro-name] .aui-icon,
+    .tech-glossary .aui-iconfont-add,
+    .tech-glossary .aui-iconfont-filter {
+      display: none !important;
+    }
   </style>
 
   <!-- Header -->
@@ -170,7 +183,7 @@
       <thead>
       <tr>
         <th id="disciplineHeader" style="width:8%;display:none">구분</th>
-        <th id="categoryHeader" style="width:12%">Category</th>
+        <th id="categoryHeader" style="width:12%">분류</th>
         <th style="width:28%">EN</th>
         <th style="width:22%">KR</th>
         <th style="width:30%">설명</th>
@@ -283,9 +296,14 @@ function formatEnglishTerm(text) {
 }
 
 /* ===========================================
-   1) 외부 JSON 데이터 로드
+   1) 전역 변수 초기화
    =========================================== */
 let glossaryData = [];
+let currentView = 'discipline';
+let selectedDiscipline = 'General';
+let currentPage = 1;
+const itemsPerPage = 50;
+let filteredDataGlobal = [];
 
 // Confluence 페이지 ID
 const PAGE_ID = '56625515';
