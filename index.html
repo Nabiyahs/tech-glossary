@@ -287,11 +287,10 @@ function formatEnglishTerm(text) {
    =========================================== */
 let glossaryData = [];
 
-// Confluence 첨부파일 경로 (페이지에 JSON 파일을 첨부한 후 사용)
-// 페이지ID를 실제 값으로 변경하세요 (예: 123456789)
-const PAGE_ID = 'YOUR_PAGE_ID';
-const JSON_BASE_PATH = '/download/attachments/' + PAGE_ID;
+// Confluence 페이지 ID
+const PAGE_ID = '78480366';
 
+// 공종별 JSON 파일 매핑
 const jsonFiles = {
   'General': 'general.json',
   'Architecture': 'architecture.json',
@@ -308,13 +307,32 @@ const jsonFiles = {
 
 async function loadGlossaryData() {
   const allData = [];
-  const loadPromises = [];
 
+  // REST API로 첨부파일 목록 가져오기
+  let attachmentMap = {};
+  try {
+    const response = await fetch('/rest/api/content/' + PAGE_ID + '/child/attachment?expand=download&limit=50');
+    if (response.ok) {
+      const result = await response.json();
+      result.results.forEach(att => {
+        attachmentMap[att.title] = att._links.download;
+      });
+    }
+  } catch (error) {
+    console.warn('Failed to fetch attachment list:', error.message);
+  }
+
+  const loadPromises = [];
   for (const [discipline, files] of Object.entries(jsonFiles)) {
     const fileList = Array.isArray(files) ? files : [files];
     for (const filename of fileList) {
+      const downloadPath = attachmentMap[filename];
+      if (!downloadPath) {
+        console.warn('Attachment not found: ' + filename);
+        continue;
+      }
       loadPromises.push(
-        fetch(JSON_BASE_PATH + '/' + filename)
+        fetch(downloadPath)
           .then(response => {
             if (!response.ok) throw new Error('Failed to load ' + filename);
             return response.json();
