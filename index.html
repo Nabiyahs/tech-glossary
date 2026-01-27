@@ -291,38 +291,32 @@ let glossaryData = [];
 const JSON_BASE_PATH = 'glossary-data';
 
 const jsonFiles = {
-  'General': ['general.json'],
-  'Architecture': ['architecture.json'],
-  'Civil': ['civil-1.json', 'civil-2.json', 'civil-3.json', 'civil-4.json'],
-  'Structure': ['structure.json'],
-  'Fire Protection': ['fire-protection.json'],
-  'Piping': ['piping.json'],
-  'Electrical': ['electrical.json'],
-  'Instrument & Control': ['instrument-and-control.json'],
-  'HVAC': ['hvac.json'],
-  'BIM': ['bim.json'],
-  'Cell': ['cell.json']
+  'General': 'general.json',
+  'Architecture': 'architecture.json',
+  'Civil': 'civil.json',
+  'Structure': 'structure.json',
+  'Fire Protection': 'fire-protection.json',
+  'Piping': 'piping.json',
+  'Electrical': 'electrical.json',
+  'Instrument & Control': 'instrument-and-control.json',
+  'HVAC': 'hvac.json',
+  'BIM': 'bim.json',
+  'Cell': 'cell.json'
 };
 
 async function loadGlossaryData() {
   const allData = [];
-  const loadPromises = [];
-
-  for (const [discipline, filenames] of Object.entries(jsonFiles)) {
-    for (const filename of filenames) {
-      loadPromises.push(
-        fetch(JSON_BASE_PATH + '/' + filename)
-          .then(response => {
-            if (!response.ok) throw new Error('Failed to load ' + filename);
-            return response.json();
-          })
-          .catch(error => {
-            console.warn('Failed to load ' + filename + ':', error.message);
-            return [];
-          })
-      );
+  const loadPromises = Object.entries(jsonFiles).map(async ([discipline, filename]) => {
+    try {
+      const response = await fetch(JSON_BASE_PATH + '/' + filename);
+      if (!response.ok) throw new Error('Failed to load ' + filename);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.warn('Failed to load ' + discipline + ':', error.message);
+      return [];
     }
-  }
+  });
 
   const results = await Promise.all(loadPromises);
   results.forEach(data => allData.push(...data));
