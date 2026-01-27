@@ -1,13 +1,13 @@
 [
   {
-    "en": "(overall) Layout Plan, Site Plan",
+    "en": "(Overall) Layout Plan, Site Plan",
     "kr": "(전체) 배치계획, 배치도",
     "description": "",
     "discipline": "Architecture",
     "category": "도면/문서"
   },
   {
-    "en": "(partial) Detail",
+    "en": "(Partial) Detail",
     "kr": "(부분) 상세도",
     "description": "",
     "discipline": "Architecture",
@@ -49,14 +49,14 @@
     "category": "도면/문서"
   },
   {
-    "en": "Botton View",
+    "en": "Bottom View",
     "kr": "저면도(밑면도)",
     "description": "",
     "discipline": "Architecture",
     "category": "도면/문서"
   },
   {
-    "en": "Celing & Lighting Plan",
+    "en": "Ceiling & Lighting Plan",
     "kr": "천정조명도",
     "description": "",
     "discipline": "Architecture",
@@ -134,7 +134,7 @@
   },
   {
     "en": "Exterior Elevation",
-    "kr": "외부입면도",
+    "kr": "외부 입면도",
     "description": "",
     "discipline": "Architecture",
     "category": "도면/문서"
