@@ -96,6 +96,7 @@
     .empty-state { text-align: center; padding: 30px; color: #666; font-style: italic; }
 
     .header-sort-controls { display: flex; align-items: center; gap: 6px; font-weight: 700; }
+    .header-title { margin-right: 4px; }
     .header-sort-btn { background: none; border: none; cursor: pointer; padding: 2px 6px; font-size: 12px; color: #666; font-weight: 600; border-radius: 4px; transition: all .2s; white-space: nowrap; }
     .header-sort-btn:hover { background: #e9ecef; color: #333; }
     .header-sort-btn.active { background: #0047AB; color: #fff; }
@@ -204,9 +205,10 @@
         <th id="disciplineHeader" style="width:8%;display:none">구분</th>
         <th id="categoryHeader" style="width:14%">
           <div class="header-sort-controls">
+            <span class="header-title">분류</span>
             <button class="header-sort-btn" id="alphabetSortBtn" type="button" title="알파벳순 정렬">A-Z</button>
             <span class="header-divider">|</span>
-            <button class="header-sort-btn active" id="categorySortBtn" type="button" title="분류순 정렬">분류</button>
+            <button class="header-sort-btn active" id="categorySortBtn" type="button" title="분류순 정렬">분류순</button>
             <div class="dropdown-wrapper">
               <button class="dropdown-toggle" id="categoryDropdownBtn" type="button" title="분류 필터"><i class="fa-solid fa-caret-down"></i></button>
               <div class="dropdown-menu" id="categoryDropdownMenu"></div>

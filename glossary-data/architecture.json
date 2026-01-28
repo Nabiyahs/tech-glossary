@@ -19,7 +19,7 @@
     "description": "Pre-design (기획설계) - Schematic design (계획설계) - Design development (기본설계) - Construction (Working) document (실시설계) - Construction supervision (설계감리)",
     "discipline": "Architecture",
     "category": "도서"
-  },aa
+  },
   {
     "en": "Architecture Planning Approval",
     "kr": "계획허가",
@@ -285,8 +285,8 @@
     "description": "",
     "discipline": "Architecture",
     "category": "도서"
-},
-{
+  },
+  {
     "en": "Occupancy And Use",
     "kr": "용도 및 사용",
     "description": "",
@@ -449,8 +449,22 @@
     "category": "문/출입구"
   },
   {
-    "en": "Exit Access Doorway",
-    "kr": "비상문",
+    "en": "Exit",
+    "kr": "출구",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "문/출입구"
+  },
+  {
+    "en": "Exit Access",
+    "kr": " 출구접근통로",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "문/출입구"
+  },
+  {
+    "en": " Doorway Configuration",
+    "kr": " 출입문 구성",
     "description": "",
     "discipline": "Architecture",
     "category": "문/출입구"
@@ -512,6 +526,13 @@
     "category": "문/출입구"
 },
 {
+    "en": "Access Doors",
+    "kr": "점검구",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "문/출입구"
+  },
+  {
     "en": "Access Doors",
     "kr": "점검구",
     "description": "",
@@ -1421,41 +1442,6 @@
     "discipline": "Architecture",
     "category": "피난/안전"
   },
-{
-    "en": "High-hazard Group H-1",
-    "kr": "고위험시설군 H-1",
-    "description": "",
-    "discipline": "Architecture",
-    "category": "피난/안전"
-  },
-  {
-    "en": "High-hazard Group H-2",
-    "kr": "고위험시설군 H-2",
-    "description": "",
-    "discipline": "Architecture",
-    "category": "피난/안전"
-  },
-  {
-    "en": "High-hazard Group H-3",
-    "kr": "고위험시설군 H-3",
-    "description": "",
-    "discipline": "Architecture",
-    "category": "피난/안전"
-  },
-  {
-    "en": "High-hazard Group H-4",
-    "kr": "고위험시설군 H-4",
-    "description": "",
-    "discipline": "Architecture",
-    "category": "피난/안전"
-  },
-  {
-    "en": "High-hazard Group H-5",
-    "kr": "고위험시설군 H-5",
-    "description": "",
-    "discipline": "Architecture",
-    "category": "피난/안전"
-  },
   {
     "en": "High-piled Combustible Storage Areas",
     "kr": "고적재 가연물 저장구역",
@@ -2297,6 +2283,34 @@
     "category": "공간/실"
   },
 {
+    "en": "Furnace Room",
+    "kr": "난방실",
+    "description": "강제 공기 순환 방식의 난방기(Furnace)나 온수 보일러(Boiler)가 설치된 전용 공간",
+    "discipline": "Architecture",
+    "category": "공간/실"
+  },
+  {
+    "en": "Basement",
+    "kr": "지하실",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "공간/실"
+  },
+  {
+    "en": "Boiler Room",
+    "kr": "보일러실",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "공간/실"
+  },
+  {
+    "en": "Incinerator Room",
+    "kr": "소각장",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "공간/실"
+  },
+  {
     "en": "Furnace Room",
     "kr": "난방실",
     "description": "강제 공기 순환 방식의 난방기(Furnace)나 온수 보일러(Boiler)가 설치된 전용 공간",
@@ -3288,168 +3302,168 @@
     "kr": "접근",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Accessibility",
     "kr": "접근성",
     "description": "장애인이나 거동 불편자의 건물 이용 편의성",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Accessory Occupancie",
     "kr": "부속 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Accessory/ancillary Building",
     "kr": "부속동",
     "description": "주 건물에 부속되는 건물",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Admin Building",
     "kr": "사무동",
     "description": "관리 업무용 건물",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Aerated Tap",
     "kr": "통기 수전",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Aerosol Storage Use",
     "kr": "에어로졸 저장 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Airflow Design Method",
     "kr": "기류 설계 방식",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Amount of Increase",
     "kr": "증가량",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Applicability",
     "kr": "적용성",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Appurtenance",
     "kr": "부속물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Architectural Institute Of Korea, AIK",
     "kr": "대한건축학회",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "At Eye Level",
     "kr": "눈높이에",
     "description": "시선 높이에서",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Automatic Water Mist Systems",
     "kr": "자동 물분무소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Basic Design Assessment",
     "kr": "기본설계평가",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Borrowed Light",
     "kr": "간접 채광",
     "description": "인접 공간에서 빌려오는 빛",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Breezeway",
     "kr": "옥외 통로",
     "description": "떨어진 건물 사이를 잇는, 지붕을 얹은 옥외 통로",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Building",
     "kr": "동",
     "description": "건물 단위",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Building Design",
     "kr": "건물 설계",
     "description": "건축물 설계",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Building Physics",
     "kr": "건축 물리학",
     "description": "건축물의 물리적 특성 연구",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Building Principle",
     "kr": "건축 원칙",
     "description": "건축 설계 원리",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Buildings On Same Lot",
     "kr": "동일 대지 내의 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Business Group B",
     "kr": "업무시설군 B",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Carbon Dioxide Systems",
     "kr": "이산화탄소 소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Casework",
@@ -3470,28 +3484,42 @@
     "kr": "붙박이형",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
+  },
+  {
+    "en": "Free-standing",
+    "kr": "독립형",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "벽/바닥/천장"
+  },
+  {
+    "en": "Built-in",
+    "kr": "붙박이형",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Castor Chair",
     "kr": "바퀴 의자",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Central Utility Building (CUB)",
     "kr": "용역동",
     "description": "FAB동 각 장비에 필요한 냉각수, 스팀, 진공, 초순수, 케미칼 등을 공급하거나 환수, 재활용하는 시설",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Closed System",
     "kr": "폐쇄형 시스템",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Closing Speed",
@@ -3505,147 +3533,147 @@
     "kr": "상업용 주방설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Complex",
     "kr": "단지",
     "description": "건물군 또는 시설 단지",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Construction",
     "kr": "구조",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Construction Design Assessment",
     "kr": "기술설계심의",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Continuity",
     "kr": "연속성",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Component",
     "kr": "구성요소",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Corrosive",
     "kr": "부식성 물질",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Covered Mall Building",
     "kr": "밀폐형 몰 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Open Mall Building",
     "kr": "개방형 몰 건축물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Covered Building",
     "kr": "폐쇄형 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Dead End",
     "kr": "막다른 구간",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Design Firm",
     "kr": "설계사",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Deterioration",
     "kr": "열화",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Distraction Marker",
     "kr": "주의표시",
     "description": "유리벽 주의 표시",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Dry-chemical System",
     "kr": "건식 화학소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Elevator Car",
     "kr": "엘리베이터 (한 칸)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Elevator Stop",
     "kr": "층수",
     "description": "엘리베이터 정지 층수",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Conveying System",
     "kr": “운반설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Elevators required",
     "kr": "필수 엘리베이터",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Encroachment",
     "kr": "침범",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Energy Storage System, ESS",
     "kr": "에너지 저장 시스템",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Environment",
@@ -3659,126 +3687,126 @@
     "kr": "배기 방식",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Exonomatric",
     "kr": "부등축투상도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Explosion",
     "kr": "폭발",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Explosion Control",
     "kr": "폭발 제어",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Explosive",
     "kr": "폭발물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Extending",
     "kr": "전개도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": ""Façade",
     "kr": "파사드",
     "description": "건물의 정면 외벽이나 외관",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Storefront View",
     "kr": "점두도(정면전경)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "창/유리"
   },
   {
     "en": "Facework",
     "kr": "벽면작업",
     "description": "벽면 마감 작업",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Fixture",
     "kr": "집기",
     "description": "고정 설치 기구",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "창/유리"
   },
   {
     "en": "Flat",
     "kr": "평지붕",
     "description": "평평한 지붕",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Flatness",
     "kr": "편평도",
     "description": "표면의 평탄함",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Fluorescent Nosing",
     "kr": "계단 노우징",
     "description": "형광 표시된 계단 가장자리",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Foam Systems",
     "kr": "포 소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "General",
     "kr": "일반사항",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Grandstand",
     "kr": "그랜드스탠드",
     "description": "야외 경기장의 지붕이 씌워져 있는 관람석",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Graphic",
     "kr": "그래픽",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Ground Level",
     "kr": "지면",
     "description": "지표면 높이",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Group A",
@@ -3848,42 +3876,42 @@
     "kr": "할론 소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Heat Gain",
     "kr": "열획득",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Heat Loss",
     "kr": "열손실",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Helistop and Heliport",
     "kr": "헬리스탑 및 헬리포트",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "High Bay",
     "kr": "고천장",
     "description": "높은 천장 공간",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "High-piled Storage",
     "kr": "고적재 저장소",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "High-rise Building",
@@ -3904,84 +3932,84 @@
     "kr": "수평 구조체",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Horizontal Building Separation Allowance",
     "kr": "건물의 수평 구획 허용",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Horizontal Projection",
     "kr": "수평 돌출물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Incidental Use",
     "kr": "부수적 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Information Required",
     "kr": "필요 정보",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Identification",
     "kr": "식별",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Initiating Device",
     "kr": "작동 장치",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Inlet Grill",
     "kr": "흡입그릴",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Installation",
     "kr": "설치",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Inter-visibility",
     "kr": "상호가시도",
     "description": "서로 볼 수 있는 정도",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Intercom",
     "kr": "인터폰",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Ironmongery",
     "kr": "철물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Isomatric",
@@ -3995,105 +4023,105 @@
     "kr": "횡방향 위치",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Leakage Containment",
     "kr": "누출 격리",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Lighting",
     "kr": "조명",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Location",
     "kr": "위치",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Occupied Level",
     "kr": "거주층",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Matrix",
     "kr": "매트릭스",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Mechanical Access Enclosed Parking Garage",
     "kr": "기계식 실내주차장",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Mechanical Ventilation",
     "kr": "기계환기",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Medical Suite",
     "kr": "의무실",
     "description": "의료 시설 공간",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Metal Backed Fabric",
     "kr": "금속 배면 직물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Minimum Critical Radiant Flux",
     "kr": "최소 임계복사열유속",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Minimum Pressure Difference",
     "kr": "최소 압력차",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Mixed Occupancies",
     "kr": "복합 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Modular Toilet, Prefabricated Toilet",
     "kr": "시스템 화장실",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Non-separated Occupancies",
     "kr": "비분리 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Non-combustibility Tests",
@@ -4107,70 +4135,70 @@
     "kr": "개방형 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Open Sight",
     "kr": "개방 시야",
     "description": "열린 시야",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Open System",
     "kr": "개방시스템",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Organic Peroxide",
     "kr": "유기과산화물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Other Projections",
     "kr": "기타 돌출물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Outlet Grill",
     "kr": "토출그릴",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Oxidizer",
     "kr": "산화제",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Paraphet",
     "kr": "파라펫",
     "description": "지붕 가장자리 난간벽",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Passenger Line",
     "kr": "인동선",
     "description": "사람의 이동 경로",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Peel And Stick",
     "kr": "자체 접착",
     "description": "뒷면에 접착제가 있는 자재",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Penetration",
@@ -4184,21 +4212,21 @@
     "kr": "(건물) 외주, 외주길이",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Plat",
     "kr": "플랫",
     "description": "측량기사가 측량한 지도로 공터의 경계선 및 기타 측량 정보를 묘사함",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Polyisocyanurate",
     "kr": "폴리이소시아누레이트",
     "description": "단열재의 한 종류",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Post-mounted Object",
@@ -4212,28 +4240,28 @@
     "kr": "전원 연결",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Preliminary Massing",
     "kr": "예비 구조 계획",
     "description": "초기 건물 형태 계획",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Pressurization Method",
     "kr": "가압 방식",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Projection",
     "kr": "돌출물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Protruding Object",
@@ -4254,56 +4282,63 @@
     "kr": "댐퍼",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Residential Development",
     "kr": "거주 개발",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Run",
     "kr": "발로 밟는 부분",
     "description": "계단의 수평 부분",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Sanitary Fitting",
     "kr": "위생 설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Self-supported",
     "kr": "독립",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Sensor Location",
     "kr": "센서 위치",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Separated Occupancie",
     "kr": "분리 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Separation",
     "kr": "구획, 분리",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
+  },
+  {
+    "en": "Highly Toxic",
+    "kr": "고독성",
+    "description": "",
+    "discipline": "Architecture",
+    "category": "피난/안전"
   },
   {
     "en": "Highly Toxic",
@@ -4317,63 +4352,63 @@
     "kr": "고체",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
 {
     "en": "Liquid",
     "kr": "액체",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Incompatible Materials",
     "kr": "혼재불가 물질",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Servery",
     "kr": "취식대, 취식 공간",
     "description": "음식 서빙 공간",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Shade",
     "kr": "가리개",
     "description": "그늘을 만드는 장치",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "창/유리"
   },
   {
     "en": "Shunt Trip",
     "kr": "차단기 트립",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Signage",
     "kr": "표지",
     "description": "안내 표시판",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Signage Implementation",
     "kr": "표지판 설치",
     "description": "안내판 설치 작업",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Sill",
     "kr": "문턱, 창문턱",
     "description": "문이나 창문 하부 구조",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Single Family Dwelling, SFD",
@@ -4387,14 +4422,14 @@
     "kr": "미끄럼 저항성",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Slope",
     "kr": "기울기",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Solventless",
@@ -4415,28 +4450,28 @@
     "kr": "구조물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Suffix",
     "kr": "접미사",
     "description": "A directional letter (i.e. N, S, E, or W) that follows the Square number. 평방 뒤의 방향을 지시하는 글자(예. N, S, E, W)",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Supervisory Service",
     "kr": "감시 서비스",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Supporting Construction",
     "kr": "지지 구조",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Tabletop",
@@ -4450,7 +4485,7 @@
     "kr": "시험된 구조체",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Threshold",
@@ -4464,35 +4499,35 @@
     "kr": "설비관통부",
     "description": "벽체나 바닥을 관통하는 설비 부분",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Touch-up Paint",
     "kr": "부분 도장 페인트",
     "description": "보수용 페인트",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Transferable Development Rights",
     "kr": "전이 가능한 개발 권한",
     "description": "A method of protecting sensitive land or historic buildings in which the right to develop these properties is transferred to other, less sensitive sites. 민감한 토지나 역사적 건물을 보호하기 위해 해당 부지의 개발권을 덜 민감한 다른 부지로 이전하는 방식.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "구조"
   },
   {
     "en": "Two Family Dwelling",
     "kr": "2가구 주택",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Two-way Communication",
     "kr": "양방향 통신",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Type I",
@@ -4506,91 +4541,91 @@
     "kr": "지하 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Use, accessory",
     "kr": "사용, 부속",
     "description": "A use customarily incidental and subordinate to the principal use, and located on the same lot with the principal use. 주요 사용 형태에 관해 관례상으로 부수적이고 종속적인 사용. 주요 사용의 형태와 함께 동일한 대지상에 위치하게 됨.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "문/출입구"
   },
   {
     "en": "Utility And Miscellaneous Group U",
     "kr": "설비 및 기타용도군 U",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Vanity Unit",
     "kr": "세면대",
     "description": "화장실 세면 시설",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Vapor Barrier",
     "kr": "증기막",
     "description": "수증기 침투를 차단하는 막",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Vapor Retarder",
     "kr": "증기 지연제",
     "description": "수증기 침투를 지연시키는 재료",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Vertical Continuity",
     "kr": "수직 연속성",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Vertical Rise",
     "kr": "수직 높이",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Visibility",
     "kr": "가시도",
     "description": "볼 수 있는 정도",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "면적/치수"
   },
   {
     "en": "Water Reactives",
     "kr": "수반응성 물질",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Wayfinding",
     "kr": "안내 표지판",
     "description": "길 찾기 표시 시설",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Well",
     "kr": "우물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Wet-chemical System",
     "kr": "습식 화학소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Where Required",
