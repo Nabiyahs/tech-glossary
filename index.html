@@ -118,34 +118,13 @@
       .pagination-controls { justify-content: center; flex-wrap: wrap; }
     }
 
-    /* Confluence 자동 테이블 아이콘 숨기기 */
-    .tech-glossary .tablesorter-header-inner .aui-icon,
-    .tech-glossary .confluenceTh .aui-icon,
+    /* Confluence 자동 테이블 아이콘만 숨기기 */
     .tech-glossary th .aui-icon,
-    .tech-glossary .tableFloatingHeader .aui-icon,
+    .tech-glossary th [class*="aui-iconfont"],
+    .tech-glossary .tableFloatingHeader,
     .tech-glossary .table-plus-btn,
-    .tech-glossary .table-filter-btn,
-    .tech-glossary [data-macro-name] .aui-icon,
-    .tech-glossary .aui-iconfont-add,
-    .tech-glossary .aui-iconfont-filter,
-    .tech-glossary th span.aui-icon,
-    .tech-glossary th button,
-    .tech-glossary th .icon,
-    .tech-glossary .confluenceTable th span[class*="icon"],
-    .tech-glossary .confluenceTable th span[class*="aui"],
-    .tableFloatingHeader,
-    .tablesorter-header-inner > span.aui-icon {
+    .tech-glossary .table-filter-btn {
       display: none !important;
-      visibility: hidden !important;
-    }
-
-    /* Confluence 테이블 정렬/필터 기능 비활성화 */
-    .tech-glossary .glossary-table th {
-      pointer-events: none;
-      cursor: default;
-    }
-    .tech-glossary .glossary-table th * {
-      pointer-events: none;
     }
   </style>
 
