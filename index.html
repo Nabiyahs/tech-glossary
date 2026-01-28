@@ -128,8 +128,25 @@
     .tech-glossary .table-filter-btn,
     .tech-glossary [data-macro-name] .aui-icon,
     .tech-glossary .aui-iconfont-add,
-    .tech-glossary .aui-iconfont-filter {
+    .tech-glossary .aui-iconfont-filter,
+    .tech-glossary th span.aui-icon,
+    .tech-glossary th button,
+    .tech-glossary th .icon,
+    .tech-glossary .confluenceTable th span[class*="icon"],
+    .tech-glossary .confluenceTable th span[class*="aui"],
+    .tableFloatingHeader,
+    .tablesorter-header-inner > span.aui-icon {
       display: none !important;
+      visibility: hidden !important;
+    }
+
+    /* Confluence 테이블 정렬/필터 기능 비활성화 */
+    .tech-glossary .glossary-table th {
+      pointer-events: none;
+      cursor: default;
+    }
+    .tech-glossary .glossary-table th * {
+      pointer-events: none;
     }
   </style>
 
@@ -907,11 +924,10 @@ function renderTable(searchTerm = '') {
       dcell.innerHTML = '<span class="discipline-badge">' + badge + '</span>';
     }
 
-    // Category 열 추가
+    // 분류 열 추가
     const catCell = row.insertCell();
     const category = t._category || '일반';
-    const catInfo = categoryMap[t.discipline]?.[category] || { icon: 'fa-solid fa-folder' };
-    catCell.innerHTML = '<span class="category-cell"><i class="' + catInfo.icon + '"></i> ' + category + '</span>';
+    catCell.innerHTML = '<span class="category-cell">' + category + '</span>';
     catCell.className = 'category-col';
 
     const en = row.insertCell();
