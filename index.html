@@ -95,7 +95,19 @@
     .term-kr { font-weight: 700; color: #0047AB; }
     .empty-state { text-align: center; padding: 30px; color: #666; font-style: italic; }
 
-    .sort-controls { display: flex; gap: 8px; margin-left: auto; }
+    .header-sort-controls { display: flex; align-items: center; gap: 6px; font-weight: 700; }
+    .header-sort-btn { background: none; border: none; cursor: pointer; padding: 2px 6px; font-size: 12px; color: #666; font-weight: 600; border-radius: 4px; transition: all .2s; white-space: nowrap; }
+    .header-sort-btn:hover { background: #e9ecef; color: #333; }
+    .header-sort-btn.active { background: #0047AB; color: #fff; }
+    .header-divider { color: #ccc; font-size: 12px; }
+    .dropdown-wrapper { position: relative; display: inline-block; }
+    .dropdown-toggle { background: none; border: none; cursor: pointer; padding: 2px 4px; font-size: 11px; color: #666; transition: all .2s; }
+    .dropdown-toggle:hover { color: #0047AB; }
+    .dropdown-menu { position: absolute; top: 100%; left: 0; background: #fff; border: 1px solid #ddd; border-radius: 6px; box-shadow: 0 4px 12px rgba(0,0,0,.15); min-width: 140px; z-index: 1000; display: none; margin-top: 4px; }
+    .dropdown-menu.show { display: block; }
+    .dropdown-item { display: block; width: 100%; padding: 8px 12px; text-align: left; background: none; border: none; cursor: pointer; font-size: 13px; color: #333; transition: background .2s; }
+    .dropdown-item:hover { background: #f0f4f8; }
+    .dropdown-item.active { background: #0047AB; color: #fff; }
     .category-col { font-size: 12px; color: #495057; }
     .category-cell { display: inline-flex; align-items: center; gap: 4px; background: #f0f4f8; padding: 4px 8px; border-radius: 4px; font-weight: 600; white-space: nowrap; }
     .category-cell i { color: #0047AB; font-size: 11px; }
@@ -158,8 +170,8 @@
 
   <!-- Disclaimer -->
   <div class="disclaimer-box">
-    <p><strong>📋 안내사항:</strong> 이 용어집은 SAMOO 하이테크 1본부에서 해외 설계사 및 건설사와의 프로젝트 회의 통역 및 번역 업무를 통해 축적된 실무 용어집을 기반으로 작성되었습니다. 각 용어는 관련성과 실무 활용도에 따라 해당 공종으로 분류하였으며, 여러 공종에 공통으로 사용되는 용어의 경우 주요 적용 분야를 기준으로 배치하였습니다.</p>
-    <p><strong>📧 문의:</strong> 하이테크 1본부 조희수 프로</p>
+    <p><strong><i class="fa-solid fa-clipboard-list"></i> 안내사항:</strong> 이 용어집은 SAMOO 하이테크 1본부에서 해외 설계사 및 건설사와의 프로젝트 회의 통역 및 번역 업무를 통해 축적된 실무 용어집을 기반으로 작성되었습니다. 각 용어는 관련성과 실무 활용도에 따라 해당 공종으로 분류하였으며, 여러 공종에 공통으로 사용되는 용어의 경우 주요 적용 분야를 기준으로 배치하였습니다.</p>
+    <p><strong><i class="fa-solid fa-envelope"></i> 문의:</strong> 하이테크 1본부 조희수 프로</p>
   </div>
 
   <!-- Search -->
@@ -179,16 +191,6 @@
         전체 보기
       </button>
     </div>
-    <div class="sort-controls" role="group" aria-label="정렬 방식">
-      <button class="view-btn" id="alphabetSortBtn" type="button">
-        <i class="fa-solid fa-arrow-down-a-z"></i>
-        알파벳순
-      </button>
-      <button class="view-btn active" id="relevanceSortBtn" type="button">
-        <i class="fa-solid fa-sitemap"></i>
-        연관성순
-      </button>
-    </div>
   </div>
 
   <!-- Discipline Shortcuts -->
@@ -200,9 +202,19 @@
       <thead>
       <tr>
         <th id="disciplineHeader" style="width:8%;display:none">구분</th>
-        <th id="categoryHeader" style="width:12%">분류</th>
-        <th style="width:28%">EN</th>
-        <th style="width:22%">KR</th>
+        <th id="categoryHeader" style="width:14%">
+          <div class="header-sort-controls">
+            <button class="header-sort-btn" id="alphabetSortBtn" type="button" title="알파벳순 정렬">A-Z</button>
+            <span class="header-divider">|</span>
+            <button class="header-sort-btn active" id="categorySortBtn" type="button" title="분류순 정렬">분류</button>
+            <div class="dropdown-wrapper">
+              <button class="dropdown-toggle" id="categoryDropdownBtn" type="button" title="분류 필터"><i class="fa-solid fa-caret-down"></i></button>
+              <div class="dropdown-menu" id="categoryDropdownMenu"></div>
+            </div>
+          </div>
+        </th>
+        <th style="width:27%">EN</th>
+        <th style="width:21%">KR</th>
         <th style="width:30%">설명</th>
       </tr>
       </thead>
@@ -391,7 +403,7 @@ const disciplineMap = {
   'Electrical': { abbreviation: 'Elec', koreanName: '전기', icon: 'fa-solid fa-bolt' },
   'Piping': { abbreviation: 'Piping', koreanName: '배관', icon: 'fa-solid fa-wrench' },
   'Civil': { abbreviation: 'Civil', koreanName: '토목', icon: 'fa-solid fa-mountain' },
-  'Instrument & Control': { abbreviation: 'I&C', koreanName: '제어', icon: 'fa-solid fa-microchip' },
+  'Instrument & Control': { abbreviation: 'I&C', koreanName: '제어', icon: 'fa-solid fa-gauge-high' },
   'Fire Protection': { abbreviation: 'FP', koreanName: '소방', icon: 'fa-solid fa-fire-extinguisher' },
   'HVAC': { abbreviation: 'HVAC', koreanName: '공조', icon: 'fa-solid fa-fan' },
   'Structure': { abbreviation: 'Struct', koreanName: '구조', icon: 'fa-solid fa-border-all' },
@@ -734,8 +746,12 @@ function assignCategory(term) {
   return bestMatch;
 }
 
-// 현재 정렬 모드 (alphabet / relevance) - 기본값: relevance
+// 현재 정렬 모드 (alphabet-asc / alphabet-desc / relevance) - 기본값: relevance
 let currentSortMode = 'relevance';
+// 알파벳 정렬 방향 (asc / desc)
+let alphabetSortDirection = 'asc';
+// 카테고리 필터 (null = 전체)
+let selectedCategoryFilter = null;
 
 /* ===========================================
    3) 초기화
@@ -774,11 +790,24 @@ function setupEventListeners() {
   if (disciplineBtn) disciplineBtn.addEventListener('click', () => setView('discipline'));
   if (allBtn) allBtn.addEventListener('click', () => setView('all'));
 
-  // 정렬 모드 버튼
+  // 헤더 정렬 버튼
   const alphabetBtn = document.getElementById('alphabetSortBtn');
-  const relevanceBtn = document.getElementById('relevanceSortBtn');
-  if (alphabetBtn) alphabetBtn.addEventListener('click', () => setSortMode('alphabet'));
-  if (relevanceBtn) relevanceBtn.addEventListener('click', () => setSortMode('relevance'));
+  const categoryBtn = document.getElementById('categorySortBtn');
+  if (alphabetBtn) alphabetBtn.addEventListener('click', toggleAlphabetSort);
+  if (categoryBtn) categoryBtn.addEventListener('click', () => setSortMode('relevance'));
+
+  // 드롭다운 메뉴
+  const dropdownBtn = document.getElementById('categoryDropdownBtn');
+  if (dropdownBtn) dropdownBtn.addEventListener('click', toggleDropdown);
+
+  // 드롭다운 외부 클릭 시 닫기
+  document.addEventListener('click', (e) => {
+    const dropdown = document.getElementById('categoryDropdownMenu');
+    const btn = document.getElementById('categoryDropdownBtn');
+    if (dropdown && btn && !dropdown.contains(e.target) && !btn.contains(e.target)) {
+      dropdown.classList.remove('show');
+    }
+  });
 
   const firstBtn = document.getElementById('firstPageBtn');
   const prevBtn  = document.getElementById('prevPageBtn');
@@ -795,8 +824,89 @@ function setupEventListeners() {
 
 function setSortMode(mode) {
   currentSortMode = mode;
-  document.getElementById('alphabetSortBtn').classList.toggle('active', mode === 'alphabet');
-  document.getElementById('relevanceSortBtn').classList.toggle('active', mode === 'relevance');
+  updateSortButtons();
+  currentPage = 1;
+  renderTable(document.getElementById('searchInput').value || '');
+}
+
+function toggleAlphabetSort() {
+  if (currentSortMode === 'alphabet') {
+    // 이미 알파벳 모드면 방향 토글
+    alphabetSortDirection = alphabetSortDirection === 'asc' ? 'desc' : 'asc';
+  } else {
+    currentSortMode = 'alphabet';
+    alphabetSortDirection = 'asc';
+  }
+  updateSortButtons();
+  currentPage = 1;
+  renderTable(document.getElementById('searchInput').value || '');
+}
+
+function updateSortButtons() {
+  const alphabetBtn = document.getElementById('alphabetSortBtn');
+  const categoryBtn = document.getElementById('categorySortBtn');
+  if (alphabetBtn) {
+    alphabetBtn.classList.toggle('active', currentSortMode === 'alphabet');
+    alphabetBtn.textContent = currentSortMode === 'alphabet'
+      ? (alphabetSortDirection === 'asc' ? 'A-Z' : 'Z-A')
+      : 'A-Z';
+  }
+  if (categoryBtn) {
+    categoryBtn.classList.toggle('active', currentSortMode === 'relevance');
+  }
+}
+
+function toggleDropdown(e) {
+  e.stopPropagation();
+  const dropdown = document.getElementById('categoryDropdownMenu');
+  if (dropdown) {
+    dropdown.classList.toggle('show');
+    if (dropdown.classList.contains('show')) {
+      renderCategoryDropdown();
+    }
+  }
+}
+
+function renderCategoryDropdown() {
+  const dropdown = document.getElementById('categoryDropdownMenu');
+  if (!dropdown) return;
+
+  // 현재 공종의 카테고리 목록 가져오기
+  const discipline = currentView === 'discipline' ? selectedDiscipline : null;
+  const categories = discipline && categoryMap[discipline] ? Object.keys(categoryMap[discipline]) : [];
+
+  dropdown.innerHTML = '';
+
+  // 전체 옵션
+  const allItem = document.createElement('button');
+  allItem.type = 'button';
+  allItem.className = 'dropdown-item' + (selectedCategoryFilter === null ? ' active' : '');
+  allItem.textContent = '전체';
+  allItem.addEventListener('click', () => selectCategoryFilter(null));
+  dropdown.appendChild(allItem);
+
+  // 카테고리별 옵션
+  if (categories.length > 0) {
+    categories.sort((a, b) => {
+      const orderA = categoryMap[discipline][a]?.order || 99;
+      const orderB = categoryMap[discipline][b]?.order || 99;
+      return orderA - orderB;
+    });
+    categories.forEach(cat => {
+      const item = document.createElement('button');
+      item.type = 'button';
+      item.className = 'dropdown-item' + (selectedCategoryFilter === cat ? ' active' : '');
+      item.textContent = cat;
+      item.addEventListener('click', () => selectCategoryFilter(cat));
+      dropdown.appendChild(item);
+    });
+  }
+}
+
+function selectCategoryFilter(category) {
+  selectedCategoryFilter = category;
+  const dropdown = document.getElementById('categoryDropdownMenu');
+  if (dropdown) dropdown.classList.remove('show');
   currentPage = 1;
   renderTable(document.getElementById('searchInput').value || '');
 }
@@ -812,6 +922,7 @@ function handleSearch(e) {
 
 function setView(view) {
   currentView = view;
+  selectedCategoryFilter = null; // 뷰 변경 시 카테고리 필터 초기화
   document.getElementById('disciplineViewBtn').classList.toggle('active', view === 'discipline');
   document.getElementById('allViewBtn').classList.toggle('active', view === 'all');
   document.getElementById('disciplineHeader').style.display = (view === 'discipline') ? 'none' : 'table-cell';
@@ -831,6 +942,7 @@ function renderDisciplineShortcuts() {
     el.innerHTML = '<i class="' + (info.icon || 'fa-solid fa-folder') + '"></i> ' + (info.koreanName || discipline);
     el.addEventListener('click', () => {
       selectedDiscipline = discipline;
+      selectedCategoryFilter = null; // 공종 변경 시 카테고리 필터 초기화
       renderDisciplineShortcuts();
       if (currentView === 'discipline') { currentPage = 1; renderTable(document.getElementById('searchInput').value || ''); }
     });
@@ -861,6 +973,11 @@ function renderTable(searchTerm = '') {
     t._category = assignCategory(t);
   });
 
+  // 카테고리 필터 적용 (공종별 보기에서만)
+  if (currentView === 'discipline' && selectedCategoryFilter) {
+    filtered = filtered.filter(t => t._category === selectedCategoryFilter);
+  }
+
   // 연관성 정렬 모드
   if (currentSortMode === 'relevance') {
     // 카테고리 순서 및 알파벳순 정렬
@@ -882,12 +999,13 @@ function renderTable(searchTerm = '') {
       return a.en.localeCompare(b.en);
     });
   } else {
-    // 알파벳순 정렬
+    // 알파벳순 정렬 (방향에 따라)
+    const direction = alphabetSortDirection === 'asc' ? 1 : -1;
     filtered.sort((a, b) => {
-      if (currentView === 'discipline') return a.en.localeCompare(b.en);
+      if (currentView === 'discipline') return direction * a.en.localeCompare(b.en);
       const ai = disciplineOrder.indexOf(a.discipline);
       const bi = disciplineOrder.indexOf(b.discipline);
-      return ai !== bi ? ai - bi : a.en.localeCompare(b.en);
+      return ai !== bi ? ai - bi : direction * a.en.localeCompare(b.en);
     });
   }
 
