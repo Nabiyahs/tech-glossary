@@ -331,11 +331,12 @@ const jsonFiles = {
 
 async function loadGlossaryData() {
   const allData = [];
+  const cacheBuster = '?t=' + Date.now();
 
-  // REST API로 첨부파일 목록 가져오기
+  // REST API로 첨부파일 목록 가져오기 (캐시 방지)
   let attachmentMap = {};
   try {
-    const response = await fetch('/rest/api/content/' + PAGE_ID + '/child/attachment?expand=download&limit=50');
+    const response = await fetch('/rest/api/content/' + PAGE_ID + '/child/attachment?expand=download&limit=50', { cache: 'no-store' });
     if (response.ok) {
       const result = await response.json();
       result.results.forEach(att => {
@@ -356,7 +357,7 @@ async function loadGlossaryData() {
         continue;
       }
       loadPromises.push(
-        fetch(downloadPath)
+        fetch(downloadPath + cacheBuster, { cache: 'no-store' })
           .then(response => {
             if (!response.ok) throw new Error('Failed to load ' + filename);
             return response.json();
