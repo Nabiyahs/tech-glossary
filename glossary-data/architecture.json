@@ -3350,28 +3350,28 @@
     "kr": "접근성",
     "description": "장애인이나 거동 불편자의 건물 이용 편의성",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Accessory Occupancies",
     "kr": "부속 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Accessory/ancillary Building",
     "kr": "부속동",
     "description": "주 건물에 부속되는 건물",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Admin Building",
     "kr": "사무동",
     "description": "관리 업무용 건물",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Aerated Tap",
@@ -3385,7 +3385,7 @@
     "kr": "에어로졸 저장 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Airflow Design Method",
@@ -3434,7 +3434,7 @@
     "kr": "자동 물분무소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Basic Design Assessment",
@@ -3448,21 +3448,21 @@
     "kr": "간접 채광",
     "description": "인접 공간에서 빌려오는 빛",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Breezeway",
     "kr": "옥외 통로",
     "description": "떨어진 건물 사이를 잇는, 지붕을 얹은 옥외 통로",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Building",
     "kr": "동",
     "description": "건물 단위",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Building Design",
@@ -3476,35 +3476,35 @@
     "kr": "건축 물리학",
     "description": "건축물의 물리적 특성 연구",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Building Principle",
     "kr": "건축 원칙",
     "description": "건축 설계 원리",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Buildings On Same Lot",
     "kr": "동일 대지 내의 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Business Group B",
     "kr": "업무시설군 B",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Carbon Dioxide Systems",
     "kr": "이산화탄소 소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Casework",
@@ -3525,7 +3525,7 @@
     "kr": "용역동",
     "description": "FAB동 각 장비에 필요한 냉각수, 스팀, 진공, 초순수, 케미칼 등을 공급하거나 환수, 재활용하는 시설",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Closed System",
@@ -3539,7 +3539,7 @@
     "kr": "폐쇄속도",
     "description": "자동문의 닫히는 속도",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Commercial Cooking Systems",
@@ -3553,7 +3553,7 @@
     "kr": "단지",
     "description": "건물군 또는 시설 단지",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Construction",
@@ -3595,28 +3595,28 @@
     "kr": "밀폐형 및 개방형 몰 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Covered And Open Mall Buildings",
     "kr": "밀폐형 및 개방형 몰 건축물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Covered Building",
     "kr": "폐쇄형 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Dead Ends",
     "kr": "막다른 구간",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Design Firm",
@@ -3644,35 +3644,35 @@
     "kr": "건식 화학소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Elevator Car",
     "kr": "엘리베이터 (한 칸)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Elevator Stop",
     "kr": "층수",
     "description": "엘리베이터 정지 층수",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Elevators And Conveying Systems",
     "kr": "엘리베이터 및 운반설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Elevators required",
     "kr": "필수 엘리베이터",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Encroachment",
@@ -3714,42 +3714,42 @@
     "kr": "부등축투상도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Explosion",
     "kr": "폭발",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Explosion Control",
     "kr": "폭발 제어",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Explosive",
     "kr": "폭발물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Extending",
     "kr": "전개도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Facade",
     "kr": "파사드",
     "description": "건물의 정면 외벽이나 외관",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Façade",
@@ -3763,7 +3763,7 @@
     "kr": "벽면작업",
     "description": "벽면 마감 작업",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Fixture",
@@ -3777,7 +3777,7 @@
     "kr": "평지붕",
     "description": "평평한 지붕",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "지붕"
   },
   {
     "en": "Flatness",
@@ -3791,14 +3791,14 @@
     "kr": "계단 노우징",
     "description": "형광 표시된 계단 가장자리",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Foam Systems",
     "kr": "포 소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "General",
@@ -3833,147 +3833,147 @@
     "kr": "A군 (집회시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group B",
     "kr": "B군 (업무시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group E",
     "kr": "E군 (교육시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group F",
     "kr": "F군 (공장시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group F-1",
     "kr": "F-1군",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group H",
     "kr": "H군 (위험물시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Group H-1",
     "kr": "H-1군",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group H-1, H-2, H-3, H-4 And H-5",
     "kr": "Group H-1, H-2, H-3, H-4 및 H-5",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group H-2",
     "kr": "H-2군",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group H-2, H-3 And H-4 Occupancies",
     "kr": "Group H-2, H-3 및 H-4 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group H-3 and H-4",
     "kr": "Group H-3 및 H-4",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group H-3 And H-4",
     "kr": "Group H-3 및 H-4",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group I",
     "kr": "I군 (수용시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group M",
     "kr": "M군 (상업시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group R",
     "kr": "R군 (주거시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group R-1",
     "kr": "R-1군",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group R-2",
     "kr": "R-2군",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group S",
     "kr": "S군 (창고시설)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group S-1",
     "kr": "S-1군",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Group S-2 Parking Garage",
     "kr": "Group S-2 주차장",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Groups F-1 and S-1 Increase",
     "kr": "Group F-1 및 S-1 증가",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Groups H-2 And H-3",
@@ -3987,14 +3987,14 @@
     "kr": "Group H-5 증가",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Halon Systems",
     "kr": "할론 소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Heat Gain",
@@ -4008,7 +4008,7 @@
     "kr": "열손실",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Helistops and Heliports",
@@ -4022,7 +4022,7 @@
     "kr": "고천장",
     "description": "높은 천장 공간",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "High-piled Storage",
@@ -4036,21 +4036,21 @@
     "kr": "고층 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "High-rise Buildings",
     "kr": "고층 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Hoistway",
     "kr": "(엘리베이터) 승강로",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "계단/동선"
   },
   {
     "en": "Horizontal Assemblies",
@@ -4071,7 +4071,7 @@
     "kr": "건물의 수평 구획 허용",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Horizontal Projections",
@@ -4085,7 +4085,7 @@
     "kr": "부수적 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Information Required",
@@ -4099,14 +4099,14 @@
     "kr": "작동장치 식별",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Initiating Devices",
     "kr": "작동 장치",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Inlet Grill",
@@ -4148,7 +4148,7 @@
     "kr": "등축투상도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "도서"
   },
   {
     "en": "Joints And Voids",
@@ -4204,7 +4204,7 @@
     "kr": "기계식 실내주차장",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Mechanical Ventilation",
@@ -4218,7 +4218,7 @@
     "kr": "의무실",
     "description": "의료 시설 공간",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Metal Backed Fabric",
@@ -4246,21 +4246,21 @@
     "kr": "복합 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Modular Toilet, Prefabricated Toilet",
     "kr": "시스템 화장실",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Non-separated Occupancies",
     "kr": "비분리 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Noncombustibility Tests",
@@ -4274,14 +4274,14 @@
     "kr": "H-1으로 분류되지 않는 폭발물 포함 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Open Building",
     "kr": "개방형 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Open Sight",
@@ -4302,7 +4302,7 @@
     "kr": "유기과산화물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Other Projections",
@@ -4323,7 +4323,7 @@
     "kr": "산화제",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Paraphet",
@@ -4337,7 +4337,7 @@
     "kr": "인동선",
     "description": "사람의 이동 경로",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Peel And Stick",
@@ -4379,7 +4379,7 @@
     "kr": "폴리이소시아누레이트",
     "description": "단열재의 한 종류",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "벽/바닥/천장"
   },
   {
     "en": "Post-mounted Objects",
@@ -4491,7 +4491,7 @@
     "kr": "분리 용도",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Separation",
@@ -4505,7 +4505,7 @@
     "kr": "고독성 고체 및 액체의 분리",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Separation of Incompatible Materials",
@@ -4519,14 +4519,14 @@
     "kr": "용도 분리",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Servery",
     "kr": "취식대, 취식 공간",
     "description": "음식 서빙 공간",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Shade",
@@ -4568,7 +4568,7 @@
     "kr": "단독주택",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Single Member District (SMD)",
@@ -4603,7 +4603,7 @@
     "kr": "평방",
     "description": "A unit of land defined by the DC Surveyor that normally consists of a single city block and contains record and tax lots. 보통 DC 측량기사에 의해 정의된 대지의 단위으로 보통 1개 도시 구획으로 구성되며 기록 공터와 세금 공터를 포함한다.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Standing Machine",
@@ -4617,14 +4617,14 @@
     "kr": "저장시설군 S",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Structure",
     "kr": "구조물",
     "description": "Something constructed, especially a building or a part of a building, but also including fences, trellises, gazebos, and similar standing features. 구성된 것. 특히 빌딩 혹은 빌딩의 일부. 또한 담, 트렐리스, 전망대 및 유사한 선 형태로서의 모형을 포함한다.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Suffix",
@@ -4659,7 +4659,7 @@
     "kr": "세금 공터",
     "description": "A unit of land assigned by the real property tax administration that usually resides within a square. Often referred to as A&T lots or simply tax lots. These lots are strictly for real estate taxation purposes. 부동산 세금 행정국에 의하여 할당된 대지의 구획으로 1평방내에 해당됨. 종종 A&T 공터나 단순히 세금 공터로 지칭되어짐. 이들 공터는 부동산 세금의 목적만으로 이용된다.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Tested Assembly",
@@ -4701,14 +4701,14 @@
     "kr": "전이 가능한 개발 권한",
     "description": "A method of protecting sensitive land or historic buildings in which the right to develop these properties is transferred to other, less sensitive sites. 민감한 대지나 역사적 빌딩을 보호하기 위한 방법으로 이들 소유물을 개발하기 위한 권한이 다른 민감성이 덜한 지역으로 전이되어지는 것을 뜻한다.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Two Family Dwelling",
     "kr": "2가구 주택",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Two-way Communication",
@@ -4722,28 +4722,28 @@
     "kr": "I형 (내화구조)",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Type I And II",
     "kr": "Type I 및 II",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Type III",
     "kr": "III형",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Type IV",
     "kr": "IV형",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Type of Construction",
@@ -4757,35 +4757,35 @@
     "kr": "V형",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Underground Buildings",
     "kr": "지하 건물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Use, accessory",
     "kr": "사용, 부속",
     "description": "A use customarily incidental and subordinate to the principal use, and located on the same lot with the principal use. 주요 사용 형태에 관해 관례상으로 부수적이고 종속적인 사용. 주요 사용의 형태와 함께 동일한 대지상에 위치하게 됨.",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Utility And Miscellaneous Group U",
     "kr": "설비 및 기타용도군 U",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "법규/인허가"
   },
   {
     "en": "Vanity Unit",
     "kr": "세면대",
     "description": "화장실 세면 시설",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Vapor Barrier",
@@ -4834,7 +4834,7 @@
     "kr": "안내 표지판",
     "description": "길 찾기 표시 시설",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   },
   {
     "en": "Well",
@@ -4848,7 +4848,7 @@
     "kr": "습식 화학소화설비",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "피난/안전"
   },
   {
     "en": "Where Required",
@@ -4862,6 +4862,6 @@
     "kr": "설치 요구사항—신축 건축물 및 구조물",
     "description": "",
     "discipline": "Architecture",
-    "category": "일반"
+    "category": "공간/실"
   }
 ]
